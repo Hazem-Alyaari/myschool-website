@@ -1,3 +1,4 @@
+import { siteConfig } from "@/config/site";
 import type { NavCta, NavGroup, NavItem } from "@/types/navigation";
 
 /**
