@@ -1,7 +1,7 @@
 {
   "Meta": {
     "title": "MySchool — School Management Platform",
-    "description": "A multi-tenant school management platform with a public school management system demo — unifying admissions, academics, finance, HR, academic supervision, and family communication."
+    "description": "A multi-tenant school management platform for learning, fees, exams, and results — unifying admissions, academics, HR, academic supervision, and family communication, with a public demo."
   },
   "Navigation": {
     "home": "Home",
@@ -32,8 +32,8 @@
   },
   "Hero": {
     "brand": "MySchool",
-    "title": "Your entire school. One platform.",
-    "description": "From admissions, students, and academics to HR, finance, supervision, and communication — MySchool brings school work together in one place.",
+    "title": "An integrated school system for learning, fees, exams, and results",
+    "description": "From admissions, students, and academics to fees, question banks, exams, results, and HR — MySchool brings school work together in one place.",
     "primaryCta": "Try MySchool Free",
     "secondaryCta": "Explore Features",
     "previewAlt": "MySchool dashboard — daily school overview",
@@ -75,9 +75,9 @@
       "description": "Years, stages, classes, schedules, homework, attendance, and exams."
     },
     "assessment": {
-      "short": "Assessment",
-      "title": "Grades, results & reporting",
-      "description": "Monthly and term grades, report cards, attendance reports, and follow-up views."
+      "short": "Question banks & assessment",
+      "title": "Rich question banks and smart assessment",
+      "description": "Digital and descriptive exams from question banks, with committees and seat numbers, grading, PDF certificates and reports, and question analytics."
     },
     "finance": {
       "short": "Finance",
@@ -109,8 +109,8 @@
         "description": "Classes, schedules, homework, and daily attendance."
       },
       "assessment": {
-        "title": "Assessment & results",
-        "description": "Exams, grades, and report cards."
+        "title": "Exams & results",
+        "description": "Question banks, digital and descriptive exams, results, and certificates."
       },
       "finance": {
         "title": "Fees & administration",
@@ -133,7 +133,7 @@
     },
     "teachers": {
       "title": "Teachers",
-      "description": "Attendance, homework, and grades, plus HR self-service."
+      "description": "Attendance, homework, exams, and grades, plus HR self-service."
     },
     "supervisors": {
       "title": "Educational supervisors",
@@ -222,12 +222,12 @@
   "Features": {
     "meta": {
       "title": "MySchool Features — Integrated School Management System",
-      "description": "Explore MySchool capabilities: admissions and students, academics, attendance and assessment, fees and accounting, HR, educational supervision, and school communication — in one school management platform."
+      "description": "Explore MySchool capabilities: admissions and students, academics, attendance, question banks and exams, fees and accounting, HR, educational supervision, and school communication — in one school management platform."
     },
     "hero": {
       "eyebrow": "Features",
       "title": "Everything you need to run your school in one system",
-      "description": "MySchool brings academic, administrative, financial, and operational workflows together — with clear permissions for every school role.",
+      "description": "MySchool brings learning, fees, exams, and results together with administrative and financial workflows — with clear permissions for every school role.",
       "primaryCta": "Try MySchool Free",
       "secondaryCta": "Back to homepage"
     },
@@ -293,30 +293,46 @@
         }
       },
       "attendanceAssessment": {
-        "short": "Attendance & assessment",
-        "title": "Attendance, exams & results",
-        "description": "Record attendance, manage exams, enter grades, and issue report cards and academic reports.",
-        "screenshotAlt": "MySchool grades and assessment interface",
+        "short": "Attendance & exams",
+        "title": "Rich question banks and smart assessment",
+        "description": "Create digital and descriptive exams from renewing question banks, organize committees and seat numbers automatically, grade with precise controls, and issue certificates and reports at the click of a button. Teachers teach — the system handles the details.",
+        "screenshotAlt": "MySchool exams and assessment interface",
         "capabilities": {
           "attendance": {
             "title": "Student attendance",
             "description": "Track presence and absences in class."
           },
-          "exams": {
-            "title": "Exams",
-            "description": "Set up exams and enter results."
+          "questionBanks": {
+            "title": "Question banks",
+            "description": "Build organized question banks and reuse them across exams."
           },
-          "grades": {
-            "title": "Grades",
-            "description": "Monthly and term grades per school policies."
+          "digitalExams": {
+            "title": "Digital & descriptive exams",
+            "description": "Create digital and descriptive exams to fit the subject and school needs."
           },
-          "reportCards": {
-            "title": "Report cards",
-            "description": "Issue and follow student report cards."
+          "examPapers": {
+            "title": "Exam papers",
+            "description": "Prepare exam papers from the bank and share them with the relevant committees."
           },
-          "reports": {
-            "title": "Academic reports",
-            "description": "Attendance and results reports for follow-up."
+          "studentAttempts": {
+            "title": "Student attempts",
+            "description": "Follow student attempts on digital exams within clear controls."
+          },
+          "grading": {
+            "title": "Auto & manual grading",
+            "description": "Grade automatically where it fits, and review manually when needed with precise controls."
+          },
+          "committees": {
+            "title": "Committees & seat numbers",
+            "description": "Organize exam committees and seat numbers automatically before exam day."
+          },
+          "certificatesReports": {
+            "title": "PDF certificates & reports",
+            "description": "Post results and issue certificates and reports as PDF at the click of a button."
+          },
+          "analytics": {
+            "title": "Question analytics",
+            "description": "Review question performance to understand strengths and gaps in assessment."
           }
         }
       },
@@ -467,8 +483,8 @@
           "description": "Daily attendance linked to student and class."
         },
         "assessment": {
-          "title": "Assessment",
-          "description": "Exams, grades, and report cards."
+          "title": "Exams & results",
+          "description": "Question banks, exams, grades, certificates, and reports."
         },
         "fees": {
           "title": "Fees",
@@ -546,8 +562,8 @@
       "teachers": {
         "short": "Teachers",
         "title": "A teaching workspace for daily classroom work",
-        "problem": "Teachers need attendance, homework, grades, and class follow-up without jumping between disconnected tools.",
-        "approach": "The teacher workspace brings together class tools, schedules, homework, attendance, and grades — plus HR self-service for attendance, leave, and payslips when permitted.",
+        "problem": "Teachers need attendance, homework, exams, grades, and class follow-up without jumping between disconnected tools.",
+        "approach": "The teacher workspace brings together class tools, schedules, homework, attendance, exams, and grades — plus HR self-service for attendance, leave, and payslips when permitted.",
         "screenshotAlt": "Academic schedule tools used in teaching workflows",
         "highlights": {
           "classroom": {
@@ -559,8 +575,8 @@
             "description": "Record and follow student attendance in class."
           },
           "grades": {
-            "title": "Grades & exams",
-            "description": "Enter grades and follow class results."
+            "title": "Exams & grades",
+            "description": "Build exams from question banks, grade work, and follow class results."
           },
           "selfService": {
             "title": "Self-service",
@@ -973,7 +989,7 @@
     "items": {
       "whatIs": {
         "question": "What is MySchool?",
-        "answer": "MySchool is a multi-tenant school management platform that brings admissions, students, academics, attendance and assessment, fees and accounting, HR, educational supervision, communication, and portals into one system."
+        "answer": "MySchool is a multi-tenant school management platform that brings admissions, students, academics, attendance, exams and results, fees and accounting, HR, educational supervision, communication, and portals into one system."
       },
       "whoFor": {
         "question": "Who is MySchool for?",
@@ -1006,6 +1022,10 @@
       "attendance": {
         "question": "Does MySchool include attendance?",
         "answer": "Yes. Attendance is part of the academic and classroom workflows supported by the platform."
+      },
+      "exams": {
+        "question": "Does MySchool support exams and question banks?",
+        "answer": "Yes. MySchool supports question banks, digital and descriptive exams, exam committees and seat numbers, result posting, PDF certificates and reports, and question analytics."
       },
       "finance": {
         "question": "Does the system include accounting and fees?",
@@ -1248,8 +1268,8 @@
         "description": "Student affairs and academic operations"
       },
       "attendanceAssessment": {
-        "label": "Attendance & Assessment",
-        "description": "Attendance, absence, and assessment"
+        "label": "Attendance & Exams",
+        "description": "Attendance, question banks, exams, and results"
       },
       "finance": {
         "label": "Finance",

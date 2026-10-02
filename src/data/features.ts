@@ -116,31 +116,63 @@ export const featureGroups = [
         icon: "clipboard-list",
       },
       {
-        id: "exams",
-        titleKey: "groups.attendanceAssessment.capabilities.exams.title",
+        id: "question-banks",
+        titleKey:
+          "groups.attendanceAssessment.capabilities.questionBanks.title",
         descriptionKey:
-          "groups.attendanceAssessment.capabilities.exams.description",
+          "groups.attendanceAssessment.capabilities.questionBanks.description",
+        icon: "book-open",
+      },
+      {
+        id: "digital-exams",
+        titleKey:
+          "groups.attendanceAssessment.capabilities.digitalExams.title",
+        descriptionKey:
+          "groups.attendanceAssessment.capabilities.digitalExams.description",
+        icon: "pen-line",
+      },
+      {
+        id: "exam-papers",
+        titleKey: "groups.attendanceAssessment.capabilities.examPapers.title",
+        descriptionKey:
+          "groups.attendanceAssessment.capabilities.examPapers.description",
         icon: "file-text",
       },
       {
-        id: "grades",
-        titleKey: "groups.attendanceAssessment.capabilities.grades.title",
+        id: "student-attempts",
+        titleKey:
+          "groups.attendanceAssessment.capabilities.studentAttempts.title",
         descriptionKey:
-          "groups.attendanceAssessment.capabilities.grades.description",
+          "groups.attendanceAssessment.capabilities.studentAttempts.description",
+        icon: "book-user",
+      },
+      {
+        id: "grading",
+        titleKey: "groups.attendanceAssessment.capabilities.grading.title",
+        descriptionKey:
+          "groups.attendanceAssessment.capabilities.grading.description",
         icon: "clipboard-check",
       },
       {
-        id: "report-cards",
-        titleKey: "groups.attendanceAssessment.capabilities.reportCards.title",
+        id: "committees",
+        titleKey: "groups.attendanceAssessment.capabilities.committees.title",
         descriptionKey:
-          "groups.attendanceAssessment.capabilities.reportCards.description",
+          "groups.attendanceAssessment.capabilities.committees.description",
+        icon: "school",
+      },
+      {
+        id: "certificates-reports",
+        titleKey:
+          "groups.attendanceAssessment.capabilities.certificatesReports.title",
+        descriptionKey:
+          "groups.attendanceAssessment.capabilities.certificatesReports.description",
         icon: "file-badge",
       },
       {
-        id: "reports",
-        titleKey: "groups.attendanceAssessment.capabilities.reports.title",
+        id: "analytics",
+        titleKey: "groups.attendanceAssessment.capabilities.analytics.title",
         descriptionKey:
-          "groups.attendanceAssessment.capabilities.reports.description",
+          "groups.attendanceAssessment.capabilities.analytics.description",
         icon: "chart-column",
       },
     ],

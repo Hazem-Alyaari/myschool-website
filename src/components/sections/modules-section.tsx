@@ -49,7 +49,7 @@ export async function ModulesSection() {
                 </div>
                 <div className="mt-4 space-y-2">
                   <h3 className="text-base font-semibold tracking-tight text-foreground">
-                    {t(module.shortKey)}
+                    {t(module.nameKey)}
                   </h3>
                   <p className="text-sm leading-relaxed text-muted-foreground">
                     {t(module.descriptionKey)}

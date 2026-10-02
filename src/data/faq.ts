@@ -91,6 +91,17 @@ export const faqItems = [
     },
   },
   {
+    id: "exams",
+    category: "features",
+    questionKey: "items.exams.question",
+    answerKey: "items.exams.answer",
+    related: {
+      type: "route",
+      href: routes.features,
+      labelKey: "related.features",
+    },
+  },
+  {
     id: "finance",
     category: "features",
     questionKey: "items.finance.question",

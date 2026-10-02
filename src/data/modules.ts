@@ -29,7 +29,7 @@ export const modules = [
     shortKey: "assessment.short",
     descriptionKey: "assessment.description",
     icon: "clipboard-check",
-    href: routes.features,
+    href: `${routes.features}#attendance-assessment`,
   },
   {
     id: "finance",
