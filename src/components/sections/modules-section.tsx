@@ -58,9 +58,9 @@ export async function ModulesSection() {
               </>
             );
 
-            if (module.href) {
-              return (
-                <Reveal key={module.id} delay={index * 0.06}>
+            return (
+              <Reveal key={module.id} delay={index * 0.06}>
+                {module.href ? (
                   <Link
                     href={module.href}
                     className="group block rounded-[var(--radius-lg)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
@@ -69,13 +69,9 @@ export async function ModulesSection() {
                       {content}
                     </Card>
                   </Link>
-                </Reveal>
-              );
-            }
-
-            return (
-              <Reveal key={module.id} delay={index * 0.06}>
-                <Card className="h-full p-5 sm:p-6">{content}</Card>
+                ) : (
+                  <Card className="h-full p-5 sm:p-6">{content}</Card>
+                )}
               </Reveal>
             );
           })}
