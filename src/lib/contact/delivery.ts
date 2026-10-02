@@ -37,7 +37,7 @@ async function deliverViaResend(
   const apiKey = readServerEnv("RESEND_API_KEY");
   const to = readServerEnv("CONTACT_TO_EMAIL");
   const from =
-    readServerEnv("CONTACT_FROM_EMAIL") || "MySchool Marketing <onboarding@resend.dev>";
+    readServerEnv("CONTACT_FROM_EMAIL") || "Binaa School Marketing <onboarding@resend.dev>";
 
   if (!apiKey || !to) {
     return {
@@ -57,7 +57,7 @@ async function deliverViaResend(
       body: JSON.stringify({
         from,
         to: [to],
-        subject: `[MySchool Contact] ${payload.inquiryType} — ${payload.organization}`,
+        subject: `[Binaa School Contact] ${payload.inquiryType} — ${payload.organization}`,
         text: formatMessageBody(payload),
         reply_to: payload.email ?? undefined,
       }),

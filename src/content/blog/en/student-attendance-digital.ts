@@ -97,9 +97,9 @@ export const enStudentAttendanceDigital: Article = {
       "Agree who owns repeated-absence follow-up",
     ),
 
-    h2("myschool-context", "MySchool context"),
+    h2("myschool-context", "Binaa School context"),
     p(
-      t("In MySchool, attendance is part of academic and classroom workflows and can connect to teacher and family experiences by permission. Explore "),
+      t("In Binaa School, attendance is part of academic and classroom workflows and can connect to teacher and family experiences by permission. Explore "),
       internal("/features", "Features", "attendance-assessment"),
       t(" or "),
       internal("/solutions", "teacher solutions", "teachers"),

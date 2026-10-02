@@ -1,24 +1,24 @@
-# MySchool — School Management Platform
+# Binaa School — School Management Platform
 
-**MySchool** is a comprehensive school management platform designed to bring the day-to-day work of a school into one connected system.
+**Binaa School** is a comprehensive school management platform designed to bring the day-to-day work of a school into one connected system.
 
-Instead of managing students, teachers, attendance, grades, fees, employees, supervision, documents, and communication through separate tools and spreadsheets, MySchool provides dedicated experiences for school management, teachers, educational supervisors, accountants, HR teams, students, and parents.
+Instead of managing students, teachers, attendance, grades, fees, employees, supervision, documents, and communication through separate tools and spreadsheets, Binaa School provides dedicated experiences for school management, teachers, educational supervisors, accountants, HR teams, students, and parents.
 
 **Arabic and English are supported, with dedicated RTL and LTR experiences.**
 
-### Explore MySchool
+### Explore Binaa School
 
 - **Website:** https://hazem-alyaari.github.io/marketing
 - **Try the public demo:** https://hazem-alyaari.github.io/marketing/ar/demo/
 - **Main product repository:** https://github.com/Hazem-Alyaari/MySchool
 
-> Open the demo from the website (`/demo`). The public demo is available for exploring MySchool before adopting it in a school.
+> Open the demo from the website (`/demo`). The public demo is available for exploring Binaa School before adopting it in a school.
 
 ---
 
 ## One Platform for the Whole School
 
-MySchool covers the major academic, administrative, financial, employee, supervision, and family-facing workflows required to operate a school.
+Binaa School covers the major academic, administrative, financial, employee, supervision, and family-facing workflows required to operate a school.
 
 The platform is organized around the people who actually use it. School administrators see the information and controls relevant to management, teachers receive teaching-focused tools, finance teams work with fees and accounting, HR manages employees and staff workflows, supervisors follow teacher development, while students and guardians use dedicated portals.
 
@@ -28,7 +28,7 @@ The platform is organized around the people who actually use it. School administ
 
 Manage the student journey from admission and registration through ongoing academic records.
 
-MySchool includes capabilities for:
+Binaa School includes capabilities for:
 
 - Student admission and registration
 - Student profiles and records
@@ -69,7 +69,7 @@ This provides a shared academic structure that other areas of the platform can w
 
 ## Attendance & Student Follow-up
 
-MySchool provides tools for following student attendance as part of the wider academic record.
+Binaa School provides tools for following student attendance as part of the wider academic record.
 
 Capabilities include:
 
@@ -89,7 +89,7 @@ Attendance is handled as part of the school platform rather than as an isolated 
 
 Manage student assessment and academic results in the same environment used for academic operations.
 
-MySchool supports:
+Binaa School supports:
 
 - Exams and assessment workflows
 - Student grades
@@ -107,7 +107,7 @@ MySchool supports:
 
 ## Fees, Student Accounts & Collections
 
-MySchool connects student financial operations with the student's school record.
+Binaa School connects student financial operations with the student's school record.
 
 Financial capabilities include:
 
@@ -127,7 +127,7 @@ School staff can work with financial information without separating it completel
 
 ## Accounting
 
-Beyond student fee collection, MySchool includes accounting capabilities for school financial operations.
+Beyond student fee collection, Binaa School includes accounting capabilities for school financial operations.
 
 The platform includes areas for:
 
@@ -146,7 +146,7 @@ This allows finance teams to work inside the same broader school platform while 
 
 ## Human Resources
 
-MySchool includes an HR area for managing employees throughout their work with the school.
+Binaa School includes an HR area for managing employees throughout their work with the school.
 
 HR capabilities include:
 
@@ -167,7 +167,7 @@ Employees and HR staff receive different experiences according to their responsi
 
 ## Payroll
 
-Payroll is connected with the wider employee and financial areas of MySchool.
+Payroll is connected with the wider employee and financial areas of Binaa School.
 
 Relevant capabilities include:
 
@@ -183,7 +183,7 @@ Relevant capabilities include:
 
 Teachers do not need to work through the same interface as school administrators.
 
-MySchool provides teaching-focused experiences around areas such as:
+Binaa School provides teaching-focused experiences around areas such as:
 
 - Classes and teaching assignments
 - Student attendance
@@ -200,7 +200,7 @@ This keeps everyday teaching work focused while still connecting it to the rest 
 
 ## Educational Supervision
 
-MySchool includes a dedicated educational supervision area for following teaching quality and professional development.
+Binaa School includes a dedicated educational supervision area for following teaching quality and professional development.
 
 Verified supervision workflows include:
 
@@ -255,7 +255,7 @@ Access remains separated from staff and administrative workspaces.
 
 ## Communication & Notifications
 
-MySchool includes communication and notification capabilities for keeping school users informed.
+Binaa School includes communication and notification capabilities for keeping school users informed.
 
 These areas include:
 
@@ -277,7 +277,7 @@ This includes relevant document management and access according to user roles an
 
 ## School Operations
 
-MySchool brings additional operational areas into the same platform rather than requiring every activity to live in a separate system.
+Binaa School brings additional operational areas into the same platform rather than requiring every activity to live in a separate system.
 
 Depending on the configured school environment, the platform includes operational capabilities around areas such as:
 
@@ -296,7 +296,7 @@ Depending on the configured school environment, the platform includes operationa
 
 Reports are an important part of the platform across multiple school areas.
 
-MySchool provides reporting and visibility for areas including:
+Binaa School provides reporting and visibility for areas including:
 
 - Students
 - Attendance
@@ -315,7 +315,7 @@ School management can use these views to understand what is happening across the
 
 Not everyone in a school should see or change the same information.
 
-MySchool uses role-based permissions and dedicated user experiences to separate responsibilities.
+Binaa School uses role-based permissions and dedicated user experiences to separate responsibilities.
 
 The platform supports experiences for users such as:
 
@@ -334,7 +334,7 @@ Permissions determine which areas and actions are available to each user.
 
 ## Schools & Branches
 
-MySchool is designed with school and branch-aware operations in mind.
+Binaa School is designed with school and branch-aware operations in mind.
 
 This allows school structures, users, permissions, and operational information to be managed within the appropriate school context while maintaining separation between responsibilities.
 
@@ -342,7 +342,7 @@ This allows school structures, users, permissions, and operational information t
 
 ## Arabic & English
 
-MySchool is designed for both Arabic and English users.
+Binaa School is designed for both Arabic and English users.
 
 - Arabic interface with RTL layout
 - English interface with LTR layout
@@ -355,7 +355,7 @@ Arabic is treated as a first-class product experience rather than an afterthough
 
 ## Public Demo
 
-You can explore MySchool directly through the public demo:
+You can explore Binaa School directly through the public demo:
 
 **http://89.116.38.192:8082/login**
 
@@ -365,13 +365,13 @@ The demo is intended for product exploration and is separate from a real school'
 
 ## First Year Free
 
-Schools can begin using MySchool with the **first year offered without a subscription fee**.
+Schools can begin using Binaa School with the **first year offered without a subscription fee**.
 
 The idea is to give a school enough time to adopt the platform in real work, evaluate how it fits its operations, and then discuss continued use based on the school's needs.
 
 The journey is simple:
 
-**Explore the demo → Start the first year → Continue with MySchool**
+**Explore the demo → Start the first year → Continue with Binaa School**
 
 For adoption or commercial questions, use the contact page on the marketing website.
 
@@ -379,7 +379,7 @@ For adoption or commercial questions, use the contact page on the marketing webs
 
 ## Support, Feedback & Product Development
 
-MySchool is intended to continue evolving alongside the schools using it.
+Binaa School is intended to continue evolving alongside the schools using it.
 
 When a school encounters a problem, the goal is to understand the issue and work toward resolving it.
 
@@ -396,7 +396,7 @@ Feature requests are reviewed as part of the platform's development priorities r
 
 ## Marketing Website
 
-This repository contains the **public marketing website** for MySchool.
+This repository contains the **public marketing website** for Binaa School.
 
 It includes:
 
@@ -404,7 +404,7 @@ It includes:
 - Detailed Features pages
 - Role-based Solutions
 - Pricing and first-year offer
-- About MySchool
+- About Binaa School
 - Frequently Asked Questions
 - Blog and school-management guides
 - Contact and commercial inquiry experience
@@ -416,9 +416,9 @@ The marketing website is available in Arabic and English:
 
 ---
 
-## Main MySchool Project
+## Main Binaa School Project
 
-The actual MySchool school management platform is maintained separately.
+The actual Binaa School school management platform is maintained separately.
 
 For the application, backend services, and main product source code, visit:
 
@@ -454,7 +454,7 @@ http://localhost:3000/ar
 
 ---
 
-## MySchool
+## Binaa School
 
 **Students. Academics. Attendance. Assessment. Finance. Accounting. HR. Payroll. Educational Supervision. Communication. Portals. Permissions. Reports.**
 

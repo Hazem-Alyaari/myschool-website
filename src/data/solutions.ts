@@ -1,7 +1,7 @@
 import type { SolutionAudience } from "@/types/solution";
 
 /**
- * Verified MySchool solution audiences for the marketing Solutions page.
+ * Verified Binaa School solution audiences for the marketing Solutions page.
  * Organized by role / operational need — not a second feature catalog.
  * relatedFeatureAnchors map to Features page section IDs.
  */

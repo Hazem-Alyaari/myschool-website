@@ -2,7 +2,7 @@ import { routes } from "@/config/navigation";
 import type { ModuleItem } from "@/types/module";
 
 /**
- * Verified MySchool product domains grouped for the marketing homepage.
+ * Verified Binaa School product domains grouped for the marketing homepage.
  * Every group maps to routes/controllers present in the product repository.
  * Do not add items that cannot be traced to the Angular app or Backend.
  */

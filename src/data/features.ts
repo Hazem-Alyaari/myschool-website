@@ -4,7 +4,7 @@ import type {
 } from "@/types/feature";
 
 /**
- * Verified MySchool feature groups for the marketing Features page.
+ * Verified Binaa School feature groups for the marketing Features page.
  * Every capability maps to routes/controllers present in the product repository.
  */
 export const featureGroups = [

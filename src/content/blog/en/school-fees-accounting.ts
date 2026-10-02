@@ -80,9 +80,9 @@ export const enSchoolFeesAccounting: Article = {
       "Enable family visibility after data quality stabilizes",
     ),
 
-    h2("myschool-context", "MySchool context"),
+    h2("myschool-context", "Binaa School context"),
     p(
-      t("MySchool includes fee collection, student accounts, expenses, and accounting capabilities such as payroll-related workflows. See "),
+      t("Binaa School includes fee collection, student accounts, expenses, and accounting capabilities such as payroll-related workflows. See "),
       internal("/features", "finance features", "finance-accounting"),
       t(" and "),
       internal("/solutions", "finance solutions", "finance"),

@@ -112,17 +112,17 @@ export const enSchoolManagementSystemGuide: Article = {
       ),
     ]),
     p(
-      t("MySchool presents that journey on "),
+      t("Binaa School presents that journey on "),
       internal("/pricing", "Pricing"),
       t(" and through "),
       internal("/contact", "Contact"),
       t("."),
     ),
 
-    h2("myschool-context", "Where MySchool fits"),
+    h2("myschool-context", "Where Binaa School fits"),
     p(
       t(
-        "MySchool is a multi-tenant school management platform that brings admissions, academics, attendance, fees and accounting, HR, supervision, communication, and portals together. This article is informational — if you want to see the workflows in product form, explore ",
+        "Binaa School is a multi-tenant school management platform that brings admissions, academics, attendance, fees and accounting, HR, supervision, communication, and portals together. This article is informational — if you want to see the workflows in product form, explore ",
       ),
       internal("/features", "Features"),
       t(" or try the public demo when available."),

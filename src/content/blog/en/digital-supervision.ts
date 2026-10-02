@@ -79,9 +79,9 @@ export const enDigitalSupervision: Article = {
       "Review follow-up quality monthly — not form volume alone",
     ),
 
-    h2("myschool-context", "MySchool context"),
+    h2("myschool-context", "Binaa School context"),
     p(
-      t("MySchool provides a dedicated educational supervision experience for evaluations, classroom visits, and teacher follow-up. See "),
+      t("Binaa School provides a dedicated educational supervision experience for evaluations, classroom visits, and teacher follow-up. See "),
       internal("/solutions", "supervision solutions", "supervision"),
       t(" and "),
       internal("/features", "supervision features", "educational-supervision"),

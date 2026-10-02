@@ -30,7 +30,7 @@ export function parseContactInquiryType(
 
 /** Build a mailto URL with the inquiry as subject + body (opens the user's email app). */
 export function buildContactMailto(payload: ContactPayload): string {
-  const subject = `[MySchool] ${payload.inquiryType} — ${payload.organization}`;
+  const subject = `[Binaa School] ${payload.inquiryType} — ${payload.organization}`;
   const body = [
     `Inquiry type: ${payload.inquiryType}`,
     `Name: ${payload.fullName}`,

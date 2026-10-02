@@ -88,10 +88,10 @@ export const enSchoolHr: Article = {
       t("Start with trustworthy records. Add reports only when teams will actually use them."),
     ]),
 
-    h2("myschool-context", "MySchool context"),
+    h2("myschool-context", "Binaa School context"),
     p(
       t(
-        "MySchool HR capabilities include employee records, attendance, leave, and related staffing workflows, with accounting links to payroll where applicable.",
+        "Binaa School HR capabilities include employee records, attendance, leave, and related staffing workflows, with accounting links to payroll where applicable.",
       ),
     ),
   ],

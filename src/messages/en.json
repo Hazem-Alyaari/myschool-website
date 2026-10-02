@@ -1,6 +1,6 @@
 {
   "Meta": {
-    "title": "MySchool — School Management Platform",
+    "title": "Binaa School — School Management Platform",
     "description": "A multi-tenant school management platform for learning, fees, exams, and results — unifying admissions, academics, HR, academic supervision, and family communication, with a public demo."
   },
   "Navigation": {
@@ -13,7 +13,7 @@
     "faq": "FAQ",
     "contact": "Contact",
     "login": "Log in",
-    "tryDemo": "Try MySchool Free",
+    "tryDemo": "Try Binaa School Free",
     "tryDemoShort": "Try for Free",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
@@ -31,20 +31,20 @@
     "en": "English"
   },
   "Hero": {
-    "brand": "MySchool",
+    "brand": "Binaa School",
     "title": "An integrated school system for learning, fees, exams, and results",
-    "description": "From admissions, students, and academics to fees, question banks, exams, results, and HR — MySchool brings school work together in one place.",
-    "primaryCta": "Try MySchool Free",
+    "description": "From admissions, students, and academics to fees, question banks, exams, results, and HR — Binaa School brings school work together in one place.",
+    "primaryCta": "Try Binaa School Free",
     "secondaryCta": "Explore Features",
-    "previewAlt": "MySchool dashboard — daily school overview",
+    "previewAlt": "Binaa School dashboard — daily school overview",
     "previewCaption": "A real dashboard screenshot will appear here once it is added.",
     "viewLarger": "View larger",
     "closePreview": "Close preview"
   },
   "Value": {
-    "eyebrow": "Why MySchool",
+    "eyebrow": "Why Binaa School",
     "title": "One system instead of scattered tools.",
-    "description": "Instead of spreadsheets, paper, and disconnected apps, MySchool connects the school operations that matter — with clear permissions for every role.",
+    "description": "Instead of spreadsheets, paper, and disconnected apps, Binaa School connects the school operations that matter — with clear permissions for every role.",
     "pillars": {
       "unified": {
         "title": "Unified operations",
@@ -98,7 +98,7 @@
   "Workflow": {
     "eyebrow": "How it connects",
     "title": "From admission to reporting, your school stays connected.",
-    "description": "A conceptual view of how MySchool covers core school stages — without claiming a fully automated pipeline for every step.",
+    "description": "A conceptual view of how Binaa School covers core school stages — without claiming a fully automated pipeline for every step.",
     "steps": {
       "admission": {
         "title": "Admissions & students",
@@ -157,20 +157,20 @@
     }
   },
   "Cta": {
-    "title": "Ready to explore MySchool yourself?",
+    "title": "Ready to explore Binaa School yourself?",
     "description": "Open the public demo and explore the system directly.",
-    "primary": "Try MySchool Free",
+    "primary": "Try Binaa School Free",
     "secondary": "Explore Features"
   },
   "Demo": {
     "title": "Explore the public demo",
     "description": "Open the demo directly and explore the available role experiences.",
-    "cta": "Try MySchool Free",
+    "cta": "Try Binaa School Free",
     "hint": "Explore the public demo directly."
   },
   "DownloadApp": {
     "eyebrow": "App",
-    "title": "Download the MySchool app",
+    "title": "Download the Binaa School app",
     "description": "Install the app on your device for easier access on Android or Mac.",
     "platforms": {
       "android": {
@@ -183,7 +183,7 @@
       }
     },
     "phonePrompt": {
-      "ariaLabel": "Download the MySchool app",
+      "ariaLabel": "Download the Binaa School app",
       "cta": "Download & install the app",
       "hint": "After download, open the file and tap Install. Your phone may ask to allow installs from the browser.",
       "dismiss": "Dismiss"
@@ -191,8 +191,8 @@
   },
   "DemoPage": {
     "meta": {
-      "title": "Try MySchool",
-      "description": "Open the public MySchool demo and explore the system directly from this website."
+      "title": "Try Binaa School",
+      "description": "Open the public Binaa School demo and explore the system directly from this website."
     },
     "title": "Opening the public demo…",
     "description": "You will be taken to the public exploration environment in a moment.",
@@ -221,14 +221,14 @@
   },
   "Features": {
     "meta": {
-      "title": "MySchool Features — Integrated School Management System",
-      "description": "Explore MySchool capabilities: admissions and students, academics, attendance, question banks and exams, fees and accounting, HR, educational supervision, and school communication — in one school management platform."
+      "title": "Binaa School Features — Integrated School Management System",
+      "description": "Explore Binaa School capabilities: admissions and students, academics, attendance, question banks and exams, fees and accounting, HR, educational supervision, and school communication — in one school management platform."
     },
     "hero": {
       "eyebrow": "Features",
       "title": "Everything you need to run your school in one system",
-      "description": "MySchool brings learning, fees, exams, and results together with administrative and financial workflows — with clear permissions for every school role.",
-      "primaryCta": "Try MySchool Free",
+      "description": "Binaa School brings learning, fees, exams, and results together with administrative and financial workflows — with clear permissions for every school role.",
+      "primaryCta": "Try Binaa School Free",
       "secondaryCta": "Back to homepage"
     },
     "navLabel": "Feature sections",
@@ -240,7 +240,7 @@
         "short": "Students & admissions",
         "title": "Admissions, students & guardians",
         "description": "From the admissions pipeline to student records and family portals — with organized follow-up at every stage.",
-        "screenshotAlt": "MySchool students management interface",
+        "screenshotAlt": "Binaa School students management interface",
         "capabilities": {
           "admissions": {
             "title": "Admissions",
@@ -268,7 +268,7 @@
         "short": "Academics",
         "title": "Academic structure & teaching",
         "description": "Configure years, stages, classes, curriculum, and schedules — with day-to-day teaching tools.",
-        "screenshotAlt": "MySchool weekly schedule interface",
+        "screenshotAlt": "Binaa School weekly schedule interface",
         "capabilities": {
           "structure": {
             "title": "Academic structure",
@@ -296,7 +296,7 @@
         "short": "Attendance & exams",
         "title": "Rich question banks and smart assessment",
         "description": "Create digital and descriptive exams from renewing question banks, organize committees and seat numbers automatically, grade with precise controls, and issue certificates and reports at the click of a button. Teachers teach — the system handles the details.",
-        "screenshotAlt": "MySchool exams and assessment interface",
+        "screenshotAlt": "Binaa School exams and assessment interface",
         "capabilities": {
           "attendance": {
             "title": "Student attendance",
@@ -340,7 +340,7 @@
         "short": "Finance",
         "title": "Fees, accounting & payroll",
         "description": "Collect fees, manage student accounts, and run advanced accounting including payroll and expenses.",
-        "screenshotAlt": "MySchool accounting interface",
+        "screenshotAlt": "Binaa School accounting interface",
         "capabilities": {
           "fees": {
             "title": "Fees & discounts",
@@ -368,7 +368,7 @@
         "short": "Human resources",
         "title": "HR & recruitment",
         "description": "Employee profiles, attendance, leave, work requests, and recruitment — plus teacher self-service.",
-        "screenshotAlt": "MySchool employee registry",
+        "screenshotAlt": "Binaa School employee registry",
         "capabilities": {
           "employees": {
             "title": "Employee profiles",
@@ -396,7 +396,7 @@
         "short": "Supervision",
         "title": "Educational supervision & teacher evaluation",
         "description": "Daily evaluations, classroom visits, and teacher feedback in a clear supervision flow.",
-        "screenshotAlt": "MySchool educational supervision interface",
+        "screenshotAlt": "Binaa School educational supervision interface",
         "capabilities": {
           "evaluations": {
             "title": "Daily evaluations",
@@ -420,7 +420,7 @@
         "short": "Operations",
         "title": "Communication, conduct & school operations",
         "description": "Notifications, conversations, and official documents — plus behavior and school activities.",
-        "screenshotAlt": "MySchool behavior and discipline interface",
+        "screenshotAlt": "Binaa School behavior and discipline interface",
         "capabilities": {
           "notifications": {
             "title": "Notifications",
@@ -448,7 +448,7 @@
         "short": "Admin & access",
         "title": "Dashboard, permissions & branches",
         "description": "A daily overview and action center, with granular permissions, branch management, and school settings.",
-        "screenshotAlt": "MySchool permissions matrix",
+        "screenshotAlt": "Binaa School permissions matrix",
         "capabilities": {
           "dashboard": {
             "title": "Dashboard",
@@ -499,7 +499,7 @@
     "roles": {
       "eyebrow": "Roles & permissions",
       "title": "Features appear according to role and permission.",
-      "description": "Not every screen is available to everyone. MySchool provides different workspaces based on granted roles.",
+      "description": "Not every screen is available to everyone. Binaa School provides different workspaces based on granted roles.",
       "note": "Verified roles include school administration, teachers, educational supervisors, accountants, HR staff, students, and guardians.",
       "items": {
         "administration": "School administration",
@@ -514,20 +514,20 @@
     "cta": {
       "title": "See how these capabilities work for your school",
       "description": "Open the public demo and explore the modules that match your school’s needs.",
-      "primary": "Try MySchool Free",
+      "primary": "Try Binaa School Free",
       "secondary": "Explore Solutions"
     }
   },
   "Solutions": {
     "meta": {
-      "title": "MySchool Solutions — Built for Every School Role",
-      "description": "See how MySchool supports school management, teachers, educational supervision, finance, HR, students, and parents — with role-appropriate workspaces and permissions."
+      "title": "Binaa School Solutions — Built for Every School Role",
+      "description": "See how Binaa School supports school management, teachers, educational supervision, finance, HR, students, and parents — with role-appropriate workspaces and permissions."
     },
     "hero": {
       "eyebrow": "Solutions",
       "title": "Built around the people who run your school",
-      "description": "MySchool gives each role the tools, information, and permissions that match their responsibilities — while keeping school operations connected in one platform.",
-      "primaryCta": "Try MySchool Free",
+      "description": "Binaa School gives each role the tools, information, and permissions that match their responsibilities — while keeping school operations connected in one platform.",
+      "primaryCta": "Try Binaa School Free",
       "secondaryCta": "Explore Features"
     },
     "navLabel": "Solutions by role",
@@ -538,8 +538,8 @@
         "short": "School management",
         "title": "A clearer view of day-to-day school operations",
         "problem": "School information is often scattered across departments, spreadsheets, and separate tools — making it harder for leadership to follow what is happening.",
-        "approach": "MySchool gives management a dashboard, an action center, and granular permissions — with visibility into students, academics, finance, HR, and reports according to granted access.",
-        "screenshotAlt": "MySchool daily operations dashboard",
+        "approach": "Binaa School gives management a dashboard, an action center, and granular permissions — with visibility into students, academics, finance, HR, and reports according to granted access.",
+        "screenshotAlt": "Binaa School daily operations dashboard",
         "highlights": {
           "dashboard": {
             "title": "Dashboard & action center",
@@ -588,8 +588,8 @@
         "short": "Supervision",
         "title": "A clear supervision path from visit to follow-up",
         "problem": "Educational supervisors need a structured way to document evaluations, classroom visits, and teacher feedback.",
-        "approach": "MySchool supports daily evaluations, classroom visits, and feedback cycles — and teachers can review what relates to them in the supervision flow.",
-        "screenshotAlt": "MySchool educational supervision interface",
+        "approach": "Binaa School supports daily evaluations, classroom visits, and feedback cycles — and teachers can review what relates to them in the supervision flow.",
+        "screenshotAlt": "Binaa School educational supervision interface",
         "highlights": {
           "evaluations": {
             "title": "Daily evaluations",
@@ -613,8 +613,8 @@
         "short": "Finance",
         "title": "Student fees and school accounting in one path",
         "problem": "When fee records are separated from accounts and accounting, collections and financial follow-up become harder to manage.",
-        "approach": "MySchool connects fee setup, collections, and student accounts with advanced accounting and payroll under the finance team’s permissions.",
-        "screenshotAlt": "MySchool accounting interface",
+        "approach": "Binaa School connects fee setup, collections, and student accounts with advanced accounting and payroll under the finance team’s permissions.",
+        "screenshotAlt": "Binaa School accounting interface",
         "highlights": {
           "fees": {
             "title": "Fees & discounts",
@@ -638,8 +638,8 @@
         "short": "Human resources",
         "title": "A clearer employee workflow for school HR",
         "problem": "HR teams need employee profiles, attendance, leave, and recruitment without scattering records across separate tools.",
-        "approach": "MySchool brings employee records, staff attendance, leave, work requests, and recruitment together — with payroll linkage when permissions allow.",
-        "screenshotAlt": "MySchool employee registry",
+        "approach": "Binaa School brings employee records, staff attendance, leave, work requests, and recruitment together — with payroll linkage when permissions allow.",
+        "screenshotAlt": "Binaa School employee registry",
         "highlights": {
           "employees": {
             "title": "Employee profiles",
@@ -664,7 +664,7 @@
         "title": "A dedicated student portal — not the admin system",
         "problem": "Students need their schedule, homework, grades, and attendance without access to administrative tools.",
         "approach": "The student portal provides a dedicated space for schedule, homework, grades, attendance, and related documents according to permissions.",
-        "screenshotAlt": "MySchool student portal",
+        "screenshotAlt": "Binaa School student portal",
         "highlights": {
           "schedule": {
             "title": "Schedule",
@@ -689,7 +689,7 @@
         "title": "Follow children from the guardian portal",
         "problem": "Guardians need a clear place to follow their children’s academics and relevant financial information, and to communicate with the school.",
         "approach": "The guardian portal supports academic follow-up, attendance, grades, and related financial information — with communication channels according to the platform’s access model.",
-        "screenshotAlt": "MySchool guardian portal",
+        "screenshotAlt": "Binaa School guardian portal",
         "highlights": {
           "followUp": {
             "title": "Academic follow-up",
@@ -744,8 +744,8 @@
     "trust": {
       "eyebrow": "Permissions",
       "title": "Access according to responsibility — nothing more.",
-      "description": "MySchool uses role- and page-based permissions so each user sees what their work requires, under school administration control.",
-      "screenshotAlt": "MySchool permissions matrix",
+      "description": "Binaa School uses role- and page-based permissions so each user sees what their work requires, under school administration control.",
+      "screenshotAlt": "Binaa School permissions matrix",
       "points": {
         "roles": {
           "title": "Distinct roles",
@@ -762,25 +762,25 @@
       }
     },
     "cta": {
-      "title": "See how MySchool fits the way your school works",
+      "title": "See how Binaa School fits the way your school works",
       "description": "Open the public demo and explore how the platform supports your school’s roles and daily operations.",
-      "primary": "Try MySchool Free",
+      "primary": "Try Binaa School Free",
       "secondary": "Explore Features"
     }
   },
   "Contact": {
     "meta": {
-      "title": "Contact MySchool",
-      "description": "Ask about starting MySchool’s free first year, deployment, onboarding, or commercial inquiries. Prefer to explore first? Open the public demo directly."
+      "title": "Contact Binaa School",
+      "description": "Ask about starting Binaa School’s free first year, deployment, onboarding, or commercial inquiries. Prefer to explore first? Open the public demo directly."
     },
     "hero": {
-      "title": "Have a question about MySchool?",
+      "title": "Have a question about Binaa School?",
       "description": "Contact us to start the free first year for your school, or for product, deployment, and commercial questions. Exploring the public demo does not require this form."
     },
     "demoInvite": {
       "title": "Want to try the system?",
       "description": "Explore the public demo directly — no contact form required. The demo is separate from first-year production use.",
-      "cta": "Try MySchool Free"
+      "cta": "Try Binaa School Free"
     },
     "channels": {
       "whatsapp": "Chat on WhatsApp"
@@ -836,32 +836,32 @@
   },
   "About": {
     "meta": {
-      "title": "About MySchool — School Management Platform",
-      "description": "Learn about MySchool: a school management platform and school ERP that connects academics, administration, finance, HR, supervision, and portals in one system."
+      "title": "About Binaa School — School Management Platform",
+      "description": "Learn about Binaa School: a school management platform and school ERP that connects academics, administration, finance, HR, supervision, and portals in one system."
     },
     "screenshotPlaceholder": "A real product screenshot will appear here when available.",
     "hero": {
-      "eyebrow": "About MySchool",
+      "eyebrow": "About Binaa School",
       "title": "Built around how schools actually work",
       "description": "Different departments and roles work in one platform — without sharing the same permissions or interfaces.",
-      "primaryCta": "Try MySchool Free",
+      "primaryCta": "Try Binaa School Free",
       "secondaryCta": "Contact us"
     },
     "what": {
       "eyebrow": "What it is",
       "title": "One platform for connected school operations",
-      "description": "MySchool is a multi-tenant school management platform that brings academic, administrative, financial, HR, supervision, and portal experiences into one system.",
+      "description": "Binaa School is a multi-tenant school management platform that brings academic, administrative, financial, HR, supervision, and portal experiences into one system.",
       "detail": "Schools use it to organize day-to-day work — from admissions and student records to attendance, fees, employee processes, and family communication — with clear access for each role.",
-      "screenshotAlt": "MySchool daily operations dashboard"
+      "screenshotAlt": "Binaa School daily operations dashboard"
     },
     "why": {
       "eyebrow": "Why it exists",
       "title": "School work is connected — tools often are not.",
-      "description": "When admissions, academics, finance, HR, and family communication live in separate places, teams spend more time reconciling information than running the school. MySchool exists to keep those operations together while respecting role boundaries."
+      "description": "When admissions, academics, finance, HR, and family communication live in separate places, teams spend more time reconciling information than running the school. Binaa School exists to keep those operations together while respecting role boundaries."
     },
     "principles": {
       "eyebrow": "Product principles",
-      "title": "How MySchool approaches school operations",
+      "title": "How Binaa School approaches school operations",
       "description": "These principles come from how the product is built — not from marketing slogans alone.",
       "connected": {
         "title": "Connected operations",
@@ -881,7 +881,7 @@
       },
       "locales": {
         "title": "Arabic and English",
-        "description": "MySchool supports Arabic and English interfaces so school teams can work in the language that fits their context."
+        "description": "Binaa School supports Arabic and English interfaces so school teams can work in the language that fits their context."
       },
       "branches": {
         "title": "Branch-aware structure",
@@ -891,7 +891,7 @@
     "audiences": {
       "eyebrow": "Who it serves",
       "title": "Built for the people who run a school",
-      "description": "A compact view of the verified school roles MySchool supports.",
+      "description": "A compact view of the verified school roles Binaa School supports.",
       "exploreSolutions": "Explore solutions by role",
       "management": "School management",
       "teachers": "Teachers",
@@ -904,9 +904,9 @@
     "structure": {
       "eyebrow": "How it is structured",
       "title": "From school operations to the right workspace",
-      "description": "A conceptual view of how MySchool organizes work — without exposing internal technical architecture.",
+      "description": "A conceptual view of how Binaa School organizes work — without exposing internal technical architecture.",
       "caption": "Student and guardian portals are separate from staff workspaces.",
-      "screenshotAlt": "MySchool student portal",
+      "screenshotAlt": "Binaa School student portal",
       "steps": {
         "operations": {
           "title": "School operations",
@@ -933,8 +933,8 @@
     "trust": {
       "eyebrow": "Access & trust",
       "title": "Separation by responsibility — not one shared interface",
-      "description": "MySchool uses role- and page-based permissions so staff, students, and guardians do not share the same experience or level of access.",
-      "screenshotAlt": "MySchool permissions matrix",
+      "description": "Binaa School uses role- and page-based permissions so staff, students, and guardians do not share the same experience or level of access.",
+      "screenshotAlt": "Binaa School permissions matrix",
       "points": {
         "rbac": {
           "title": "Role-based permissions",
@@ -951,22 +951,22 @@
       }
     },
     "cta": {
-      "title": "See MySchool for yourself",
+      "title": "See Binaa School for yourself",
       "description": "Explore the public demo, or contact us with questions about deployment and commercial needs.",
-      "primary": "Try MySchool Free",
+      "primary": "Try Binaa School Free",
       "secondary": "Contact us"
     }
   },
   "Faq": {
     "meta": {
-      "title": "MySchool FAQ — Demo, Features & Permissions",
-      "description": "Answers about MySchool as a school management platform: public demo access, features, permissions, portals, and how to contact us."
+      "title": "Binaa School FAQ — Demo, Features & Permissions",
+      "description": "Answers about Binaa School as a school management platform: public demo access, features, permissions, portals, and how to contact us."
     },
     "hero": {
       "eyebrow": "FAQ",
-      "title": "Common questions before you try MySchool",
+      "title": "Common questions before you try Binaa School",
       "description": "Straight answers about the product, the public demo, permissions, and how to get in touch — without inventing unverified claims.",
-      "primaryCta": "Try MySchool Free",
+      "primaryCta": "Try Binaa School Free",
       "secondaryCta": "Contact us"
     },
     "listHeading": "Frequently asked questions",
@@ -988,19 +988,19 @@
     },
     "items": {
       "whatIs": {
-        "question": "What is MySchool?",
-        "answer": "MySchool is a multi-tenant school management platform that brings admissions, students, academics, attendance, exams and results, fees and accounting, HR, educational supervision, communication, and portals into one system."
+        "question": "What is Binaa School?",
+        "answer": "Binaa School is a multi-tenant school management platform that brings admissions, students, academics, attendance, exams and results, fees and accounting, HR, educational supervision, communication, and portals into one system."
       },
       "whoFor": {
-        "question": "Who is MySchool for?",
+        "question": "Who is Binaa School for?",
         "answer": "It is built for schools and the people who run them: school management, teachers, educational supervisors, finance teams, HR staff, students, and guardians — each with an experience suited to their role."
       },
       "locales": {
-        "question": "Does MySchool support Arabic and English?",
-        "answer": "Yes. MySchool supports Arabic and English interfaces so school teams can work in the language that fits their context."
+        "question": "Does Binaa School support Arabic and English?",
+        "answer": "Yes. Binaa School supports Arabic and English interfaces so school teams can work in the language that fits their context."
       },
       "tryBeforeContact": {
-        "question": "Can I try MySchool before contacting you?",
+        "question": "Can I try Binaa School before contacting you?",
         "answer": "Yes. When the public demo environment is configured, you can open it directly from this website. You do not need to submit a contact form first."
       },
       "demoFree": {
@@ -1016,16 +1016,16 @@
         "answer": "No. The public demo is for exploration. It is not your school’s production environment and should not be treated as live operational data for a real school."
       },
       "students": {
-        "question": "Does MySchool include student management?",
-        "answer": "Yes. MySchool includes admissions, student records, and guardian relationships as part of its student and family capabilities."
+        "question": "Does Binaa School include student management?",
+        "answer": "Yes. Binaa School includes admissions, student records, and guardian relationships as part of its student and family capabilities."
       },
       "attendance": {
-        "question": "Does MySchool include attendance?",
+        "question": "Does Binaa School include attendance?",
         "answer": "Yes. Attendance is part of the academic and classroom workflows supported by the platform."
       },
       "exams": {
-        "question": "Does MySchool support exams and question banks?",
-        "answer": "Yes. MySchool supports question banks, digital and descriptive exams, exam committees and seat numbers, result posting, PDF certificates and reports, and question analytics."
+        "question": "Does Binaa School support exams and question banks?",
+        "answer": "Yes. Binaa School supports question banks, digital and descriptive exams, exam committees and seat numbers, result posting, PDF certificates and reports, and question analytics."
       },
       "finance": {
         "question": "Does the system include accounting and fees?",
@@ -1036,7 +1036,7 @@
         "answer": "Yes. HR capabilities include employee records, attendance, leave, and related staffing workflows, with accounting capabilities connected to payroll."
       },
       "supervision": {
-        "question": "Does MySchool include educational supervision?",
+        "question": "Does Binaa School include educational supervision?",
         "answer": "Yes. Educational supervisors have a dedicated experience for evaluations, classroom visits, and teacher follow-up."
       },
       "studentPortal": {
@@ -1053,14 +1053,14 @@
       },
       "permissions": {
         "question": "How do permissions work?",
-        "answer": "MySchool uses role- and page-based permissions. School administration controls what each role can view or manage, so access follows responsibility."
+        "answer": "Binaa School uses role- and page-based permissions. School administration controls what each role can view or manage, so access follows responsibility."
       },
       "branches": {
-        "question": "Can MySchool be used across more than one branch?",
+        "question": "Can Binaa School be used across more than one branch?",
         "answer": "Yes, where needed. The platform includes branch management so schools can organize multi-branch operations within the same system."
       },
       "deployment": {
-        "question": "How is MySchool deployed or set up?",
+        "question": "How is Binaa School deployed or set up?",
         "answer": "Deployment and onboarding details depend on the commercial arrangement for your school. This site does not publish a fixed cloud/on-premises checklist or SLA. Contact us to discuss setup needs."
       },
       "contact": {
@@ -1068,8 +1068,8 @@
         "answer": "Use the Contact page for general questions, starting the free first year, commercial or deployment needs, or product questions. Exploring the public demo does not require contacting us first."
       },
       "isFree": {
-        "question": "Is MySchool free?",
-        "answer": "The public demo is free to explore. You can use MySchool in your school during the first year without a subscription fee. Continued use after the first year is arranged commercially to fit the school’s needs."
+        "question": "Is Binaa School free?",
+        "answer": "The public demo is free to explore. You can use Binaa School in your school during the first year without a subscription fee. Continued use after the first year is arranged commercially to fit the school’s needs."
       },
       "payBeforeDemo": {
         "question": "Do I need to pay before trying the system?",
@@ -1081,11 +1081,11 @@
       },
       "demoVsFirstYear": {
         "question": "What is the difference between the public demo and the free first year?",
-        "answer": "The public demo is for exploration and getting familiar with the product. The free first year is for adopting MySchool in your school for day-to-day work."
+        "answer": "The public demo is for exploration and getting familiar with the product. The free first year is for adopting Binaa School in your school for day-to-day work."
       },
       "afterFirstYear": {
         "question": "What happens after the first year ends?",
-        "answer": "After the first year, you can continue using MySchool under a commercial arrangement that fits your school, with ongoing product development and follow-up on issues and feedback."
+        "answer": "After the first year, you can continue using Binaa School under a commercial arrangement that fits your school, with ongoing product development and follow-up on issues and feedback."
       },
       "howSubscription": {
         "question": "How is the subscription determined after the first year?",
@@ -1105,7 +1105,7 @@
       },
       "featureRequests": {
         "question": "Can we suggest a new feature?",
-        "answer": "Yes. Schools can send feedback, suggestions, and feature requests. We review them as part of MySchool’s product development priorities. That does not mean every request will be built."
+        "answer": "Yes. Schools can send feedback, suggestions, and feature requests. We review them as part of Binaa School’s product development priorities. That does not mean every request will be built."
       },
       "howStartFirstYear": {
         "question": "How do we start the free first year?",
@@ -1115,27 +1115,27 @@
     "cta": {
       "title": "Still deciding?",
       "description": "Explore the public demo, or send a message if you want to start the free first year or discuss commercial needs.",
-      "primary": "Try MySchool Free",
+      "primary": "Try Binaa School Free",
       "secondary": "Contact us"
     }
   },
   "Pricing": {
     "meta": {
-      "title": "MySchool Pricing — Free First Year of School Management",
-      "description": "Use MySchool in your school free for the first year. Explore the school management system demo, move into real adoption, then continue after year one with an arrangement that fits your school."
+      "title": "Binaa School Pricing — Free First Year of School Management",
+      "description": "Use Binaa School in your school free for the first year. Explore the school management system demo, move into real adoption, then continue after year one with an arrangement that fits your school."
     },
     "hero": {
       "eyebrow": "Pricing",
       "title": "A full year free, so you can start with confidence",
-      "description": "Start using MySchool in your school free during the first year. Explore the system first, then move into real use — and after the first year we arrange continuation that fits your school.",
+      "description": "Start using Binaa School in your school free during the first year. Explore the system first, then move into real use — and after the first year we arrange continuation that fits your school.",
       "primaryCta": "Start Your Free First Year",
       "secondaryCta": "Try the Demo",
-      "note": "The public demo is for exploration. The free first year is for starting MySchool in your school."
+      "note": "The public demo is for exploration. The free first year is for starting Binaa School in your school."
     },
     "firstYear": {
       "eyebrow": "Start for real",
       "title": "The first year is on us",
-      "description": "Start running MySchool in your school and use it in day-to-day work during the first year without a subscription fee.",
+      "description": "Start running Binaa School in your school and use it in day-to-day work during the first year without a subscription fee.",
       "points": {
         "real": "Real use inside the school",
         "adopt": "Enough time to adopt and evaluate the system",
@@ -1143,7 +1143,7 @@
       },
       "why": {
         "title": "Why a full year?",
-        "description": "Because evaluating a school system is not done in a day or a week. A full year gives your school time to use MySchool across different stages of work and assess how well it fits your needs."
+        "description": "Because evaluating a school system is not done in a day or a week. A full year gives your school time to use Binaa School across different stages of work and assess how well it fits your needs."
       },
       "cta": "I want to start the free first year"
     },
@@ -1153,7 +1153,7 @@
       "description": "Explore the system, use it in your school free for a year, then continue with an arrangement that fits.",
       "demo": {
         "label": "Explore",
-        "title": "Explore MySchool directly",
+        "title": "Explore Binaa School directly",
         "points": {
           "direct": "Direct access to the public demo environment",
           "explore": "Explore interfaces and product capabilities",
@@ -1168,7 +1168,7 @@
         "points": {
           "noFee": "First year with no subscription fee",
           "real": "Real school use",
-          "time": "Enough time to adopt MySchool in daily operations"
+          "time": "Enough time to adopt Binaa School in daily operations"
         },
         "cta": "Start Your Free First Year"
       },
@@ -1186,7 +1186,7 @@
     "support": {
       "eyebrow": "With you after go-live",
       "title": "We listen, address, and keep improving.",
-      "description": "If you face a problem while using MySchool, we work with you to understand it and address it. We also welcome school feedback and feature requests and review them as part of platform development.",
+      "description": "If you face a problem while using Binaa School, we work with you to understand it and address it. We also welcome school feedback and feature requests and review them as part of platform development.",
       "items": {
         "problems": {
           "title": "Problem support",
@@ -1198,14 +1198,14 @@
         },
         "features": {
           "title": "Feature requests",
-          "description": "You can suggest new features or improvements, and we review them within MySchool’s development priorities."
+          "description": "You can suggest new features or improvements, and we review them within Binaa School’s development priorities."
         }
       }
     },
     "after": {
       "eyebrow": "Continuation",
       "title": "After the first year? We continue with you.",
-      "description": "After the first year, you can keep using MySchool under an arrangement that fits your school’s needs, with ongoing product development and follow-up on issues and feedback.",
+      "description": "After the first year, you can keep using Binaa School under an arrangement that fits your school’s needs, with ongoing product development and follow-up on issues and feedback.",
       "discussTitle": "What we discuss",
       "discuss": {
         "size": "School size",
@@ -1237,7 +1237,7 @@
   },
   "Blog": {
     "meta": {
-      "title": "MySchool Blog — School Management Insights",
+      "title": "Binaa School Blog — School Management Insights",
       "description": "Practical articles on school management systems, attendance, fees, HR, and educational supervision — written to help schools operate with more clarity."
     },
     "hero": {
@@ -1290,7 +1290,7 @@
     },
     "articleCta": {
       "title": "Want to see these workflows inside a connected school system?",
-      "description": "Explore MySchool capabilities or try the public demo to see the product in practice.",
+      "description": "Explore Binaa School capabilities or try the public demo to see the product in practice.",
       "demo": "Try the Demo",
       "features": "Explore Features"
     },
@@ -1301,7 +1301,7 @@
       "contact": "Contact Us"
     },
     "cta": {
-      "title": "Try MySchool or explore the platform",
+      "title": "Try Binaa School or explore the platform",
       "description": "Our articles explain school management concepts. If you want to see these workflows in a connected product, start with the demo or Features.",
       "primary": "Try the Demo",
       "secondary": "Explore Features"

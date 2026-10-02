@@ -39,16 +39,16 @@ const localeDirections = {
 } as const satisfies Record<SiteLocale, LocaleDirection>;
 
 const defaultDescription =
-  "MySchool is a multi-tenant school management platform that unifies admissions, academics, finance, HR, academic supervision, and family communication.";
+  "Binaa School is a multi-tenant school management platform that unifies admissions, academics, finance, HR, academic supervision, and family communication.";
 
 /**
- * Central site configuration for the MySchool marketing website.
+ * Central site configuration for the Binaa School marketing website.
  * Safe for Server Components and metadata generation.
  * Unknown business values stay empty; URLs come from NEXT_PUBLIC_* env vars only.
  *
  * URL roles (keep distinct — do not conflate):
  * - siteUrl: marketing website
- * - appUrl: normal MySchool application / login (when applicable)
+ * - appUrl: normal Binaa School application / login (when applicable)
  * - demoUrl: public demo environment (free exploration; not a subscription claim).
  *   User-facing CTAs open the marketing `/demo` launch page, which then enters demoUrl.
  *
@@ -58,12 +58,12 @@ const defaultDescription =
  */
 export const siteConfig = {
   /** Canonical English product name (repo, package, technical refs). */
-  name: "MySchool",
-  shortName: "MySchool",
+  name: "Binaa School",
+  shortName: "Binaa School",
   /** Display name shown in the UI per locale. */
   localizedNames: {
     ar: "بناء سكول",
-    en: "MySchool",
+    en: "Binaa School",
   } as const satisfies Record<SiteLocale, string>,
   description: defaultDescription,
 
@@ -103,8 +103,8 @@ export const siteConfig = {
   },
 
   seo: {
-    defaultTitle: "MySchool",
-    titleTemplate: "%s | MySchool",
+    defaultTitle: "Binaa School",
+    titleTemplate: "%s | Binaa School",
     defaultDescription,
     keywords: [
       "school management system",
