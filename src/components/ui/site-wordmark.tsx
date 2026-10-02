@@ -9,12 +9,12 @@ type SiteWordmarkProps = {
 
 /**
  * Typography-only brand wordmark — no invented logo asset.
- * Arabic locales show «مدرستي»; English shows «MySchool».
+ * Arabic locales show «بناء سكول»; English shows «MySchool».
  */
 export async function SiteWordmark({ className }: SiteWordmarkProps) {
   const locale = await getLocale();
   const brand = getBrandName(locale);
-  const mark = locale === "ar" ? "م" : "MS";
+  const mark = locale === "ar" ? "ب" : "MS";
 
   return (
     <Link

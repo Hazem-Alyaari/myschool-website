@@ -62,7 +62,7 @@ export const siteConfig = {
   shortName: "MySchool",
   /** Display name shown in the UI per locale. */
   localizedNames: {
-    ar: "مدرستي",
+    ar: "بناء سكول",
     en: "MySchool",
   } as const satisfies Record<SiteLocale, string>,
   description: defaultDescription,
@@ -121,7 +121,7 @@ export const siteConfig = {
 
 export type SiteConfig = typeof siteConfig;
 
-/** Brand label for the active locale (Arabic UI uses «مدرستي»). */
+/** Brand label for the active locale (Arabic UI uses «بناء سكول»). */
 export function getBrandName(locale: string): string {
   if (locale === "ar") {
     return siteConfig.localizedNames.ar;
