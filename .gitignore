@@ -25,7 +25,6 @@
 *.pem
 
 # Synced from /downloads by scripts/sync-app-downloads.mjs (source of truth stays in /downloads)
-/public/downloads/
 /public/app/
 
 # debug
