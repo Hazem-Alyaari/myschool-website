@@ -9,7 +9,7 @@ import { routing, type Locale } from "@/i18n/routing";
  * Mapping:
  * - students → students.png
  * - academics → schedule.png
- * - attendance → grades.png
+ * - attendance → question-banks.png
  * - finance → accounting.png
  * - hr → employees.png
  * - supervision → supervision.png
@@ -61,11 +61,11 @@ export const productScreenshots = {
     ...hdSlot,
   },
   attendance: {
-    file: "grades.png",
+    file: "question-banks.png",
     available: true,
-    width: 1911,
-    height: 949,
-    aspectRatio: "1911 / 949",
+    width: 1024,
+    height: 530,
+    aspectRatio: "1024 / 530",
     ...hdSlot,
   },
   finance: {
