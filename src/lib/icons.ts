@@ -5,6 +5,7 @@ import {
   BookUser,
   Briefcase,
   Building2,
+  Bus,
   Calculator,
   CalendarDays,
   ChartColumn,
@@ -20,9 +21,13 @@ import {
   Landmark,
   Layers,
   LayoutDashboard,
+  Library,
+  MapPin,
   MessagesSquare,
+  Mic,
   PenLine,
   Receipt,
+  Route,
   School,
   Shield,
   UserCog,
@@ -41,6 +46,7 @@ const moduleIcons = {
   wallet: Wallet,
   briefcase: Briefcase,
   messages: MessagesSquare,
+  bus: Bus,
 } as const satisfies Record<ModuleIconId, LucideIcon>;
 
 const userIcons = {
@@ -88,6 +94,11 @@ const featureIcons = {
   "heart-handshake": HeartHandshake,
   calculator: Calculator,
   eye: Eye,
+  mic: Mic,
+  bus: Bus,
+  library: Library,
+  route: Route,
+  "map-pin": MapPin,
 } as const satisfies Record<FeatureIconId, LucideIcon>;
 
 export function getModuleIcon(id: ModuleIconId): LucideIcon {

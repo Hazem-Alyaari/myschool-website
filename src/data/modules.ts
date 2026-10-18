@@ -55,4 +55,12 @@ export const modules = [
     icon: "messages",
     href: routes.features,
   },
+  {
+    id: "school-services",
+    nameKey: "schoolServices.title",
+    shortKey: "schoolServices.short",
+    descriptionKey: "schoolServices.description",
+    icon: "bus",
+    href: `${routes.features}#transportation`,
+  },
 ] as const satisfies readonly ModuleItem[];

@@ -63,7 +63,7 @@
   "Modules": {
     "eyebrow": "Core capabilities",
     "title": "Everything you need to run your school",
-    "description": "Six focused capability groups covering the school operations that matter most.",
+    "description": "Seven focused capability groups covering the school operations that matter most.",
     "studentsFamily": {
       "short": "Students & families",
       "title": "Admissions, students & guardians",
@@ -93,6 +93,11 @@
       "short": "Operations",
       "title": "Communication & operations",
       "description": "Notifications, conversations, official documents, permissions, and branches."
+    },
+    "schoolServices": {
+      "short": "School services",
+      "title": "Transport, library & voice input",
+      "description": "School transportation, library and digital library, plus voice input inside forms."
     }
   },
   "Workflow": {
@@ -222,7 +227,7 @@
   "Features": {
     "meta": {
       "title": "Binaa School Features — Integrated School Management System",
-      "description": "Explore Binaa School capabilities: admissions and students, academics, attendance, question banks and exams, fees and accounting, HR, educational supervision, and school communication — in one school management platform."
+      "description": "Explore Binaa School capabilities: admissions and students, academics, attendance and exams, fees and accounting, HR, educational supervision, school transport, library, and voice input — in one school management platform."
     },
     "hero": {
       "eyebrow": "Features",
@@ -441,6 +446,90 @@
           "activities": {
             "title": "Activities & meetings",
             "description": "Activities, achievements, and organizational meetings."
+          }
+        }
+      },
+      "voiceInput": {
+        "short": "Voice input",
+        "title": "Voice input inside forms",
+        "description": "Fill fields by speaking instead of typing — listen, review the text, then insert it into the form in one tap.",
+        "screenshotAlt": "Binaa School voice input interface",
+        "capabilities": {
+          "dictation": {
+            "title": "Voice dictation",
+            "description": "Speak and the system turns your speech into text in the field."
+          },
+          "forms": {
+            "title": "Inside forms",
+            "description": "A microphone on input fields speeds up everyday data entry."
+          },
+          "arabicEnglish": {
+            "title": "Arabic & English",
+            "description": "Dictation works in Arabic and English based on the interface language."
+          },
+          "insertReview": {
+            "title": "Review then insert",
+            "description": "Review the text before inserting, with quick shortcuts to insert or cancel."
+          }
+        }
+      },
+      "transportation": {
+        "short": "School transport",
+        "title": "Full school transportation management",
+        "description": "Vehicles, routes, assignments, daily trips, incidents, and reports — in one dashboard to run transport.",
+        "screenshotAlt": "Binaa School transportation dashboard",
+        "capabilities": {
+          "vehicles": {
+            "title": "Vehicles",
+            "description": "Manage school buses and their operational status."
+          },
+          "routes": {
+            "title": "Routes",
+            "description": "Define transport routes, directions, and capacity."
+          },
+          "assignments": {
+            "title": "Student assignments",
+            "description": "Link students to pickup and drop-off routes."
+          },
+          "trips": {
+            "title": "Daily trips",
+            "description": "Follow today’s trips, delays, and live tracking."
+          },
+          "incidents": {
+            "title": "Incidents",
+            "description": "Record incidents and follow up on resolution."
+          },
+          "reports": {
+            "title": "Transport reports",
+            "description": "Capacity, attendance, and operations reports for download and follow-up."
+          }
+        }
+      },
+      "library": {
+        "short": "Library",
+        "title": "Library & digital library",
+        "description": "Manage books and digital resources with student access — from cataloging to self-learning.",
+        "screenshotAlt": "Binaa School digital library interface",
+        "capabilities": {
+          "books": {
+            "title": "Textbooks",
+            "description": "Manage school books and curriculum-linked materials."
+          },
+          "digital": {
+            "title": "Digital library",
+            "description": "Digital resources: videos, links, files, and worksheets."
+          },
+          "studentAccess": {
+            "title": "Student library",
+            "description": "Students access books and resources from their portal."
+          },
+          "catalog": {
+            "title": "Catalog & availability",
+            "description": "Classify books by author, section, language, and availability."
+          },
+          "selfLearning": {
+            "title": "Self-learning",
+            "description": "Enrichment resources that support learning beyond class."
           }
         }
       },

@@ -26,7 +26,12 @@ export type FeatureIconId =
   | "handshake"
   | "heart-handshake"
   | "calculator"
-  | "eye";
+  | "eye"
+  | "mic"
+  | "bus"
+  | "library"
+  | "route"
+  | "map-pin";
 
 export type FeatureScreenshotKey =
   | "dashboard"
@@ -39,7 +44,10 @@ export type FeatureScreenshotKey =
   | "operations"
   | "permissions"
   | "studentPortal"
-  | "guardianPortal";
+  | "guardianPortal"
+  | "voice"
+  | "transportation"
+  | "library";
 
 export type FeatureCapability = {
   id: string;

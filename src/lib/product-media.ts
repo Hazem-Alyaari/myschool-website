@@ -18,6 +18,9 @@ import { routing, type Locale } from "@/i18n/routing";
  * - dashboard → dashboard.png
  * - studentPortal → student-portal.png
  * - guardianPortal → guardian-portal.png
+ * - voice → voice.png
+ * - transportation → transportation.png
+ * - library → library.png
  */
 const hdSlot = {
   recommendedWidth: 1920,
@@ -119,6 +122,30 @@ export const productScreenshots = {
     width: 1899,
     height: 952,
     aspectRatio: "1899 / 952",
+    ...hdSlot,
+  },
+  voice: {
+    file: "voice.png",
+    available: true,
+    width: 1024,
+    height: 530,
+    aspectRatio: "1024 / 530",
+    ...hdSlot,
+  },
+  transportation: {
+    file: "transportation.png",
+    available: true,
+    width: 1024,
+    height: 532,
+    aspectRatio: "1024 / 532",
+    ...hdSlot,
+  },
+  library: {
+    file: "library.png",
+    available: true,
+    width: 1024,
+    height: 533,
+    aspectRatio: "1024 / 533",
     ...hdSlot,
   },
 } as const;

@@ -363,6 +363,140 @@ export const featureGroups = [
     ],
   },
   {
+    id: "voice-input",
+    anchor: "voice-input",
+    titleKey: "groups.voiceInput.title",
+    shortKey: "groups.voiceInput.short",
+    descriptionKey: "groups.voiceInput.description",
+    icon: "mic",
+    screenshotKey: "voice",
+    screenshotAltKey: "groups.voiceInput.screenshotAlt",
+    capabilities: [
+      {
+        id: "dictation",
+        titleKey: "groups.voiceInput.capabilities.dictation.title",
+        descriptionKey: "groups.voiceInput.capabilities.dictation.description",
+        icon: "mic",
+      },
+      {
+        id: "forms",
+        titleKey: "groups.voiceInput.capabilities.forms.title",
+        descriptionKey: "groups.voiceInput.capabilities.forms.description",
+        icon: "pen-line",
+      },
+      {
+        id: "arabic-english",
+        titleKey: "groups.voiceInput.capabilities.arabicEnglish.title",
+        descriptionKey:
+          "groups.voiceInput.capabilities.arabicEnglish.description",
+        icon: "messages",
+      },
+      {
+        id: "insert-review",
+        titleKey: "groups.voiceInput.capabilities.insertReview.title",
+        descriptionKey:
+          "groups.voiceInput.capabilities.insertReview.description",
+        icon: "clipboard-check",
+      },
+    ],
+  },
+  {
+    id: "transportation",
+    anchor: "transportation",
+    titleKey: "groups.transportation.title",
+    shortKey: "groups.transportation.short",
+    descriptionKey: "groups.transportation.description",
+    icon: "bus",
+    screenshotKey: "transportation",
+    screenshotAltKey: "groups.transportation.screenshotAlt",
+    capabilities: [
+      {
+        id: "vehicles",
+        titleKey: "groups.transportation.capabilities.vehicles.title",
+        descriptionKey:
+          "groups.transportation.capabilities.vehicles.description",
+        icon: "bus",
+      },
+      {
+        id: "routes",
+        titleKey: "groups.transportation.capabilities.routes.title",
+        descriptionKey: "groups.transportation.capabilities.routes.description",
+        icon: "route",
+      },
+      {
+        id: "assignments",
+        titleKey: "groups.transportation.capabilities.assignments.title",
+        descriptionKey:
+          "groups.transportation.capabilities.assignments.description",
+        icon: "map-pin",
+      },
+      {
+        id: "trips",
+        titleKey: "groups.transportation.capabilities.trips.title",
+        descriptionKey: "groups.transportation.capabilities.trips.description",
+        icon: "calendar-days",
+      },
+      {
+        id: "incidents",
+        titleKey: "groups.transportation.capabilities.incidents.title",
+        descriptionKey:
+          "groups.transportation.capabilities.incidents.description",
+        icon: "shield",
+      },
+      {
+        id: "reports",
+        titleKey: "groups.transportation.capabilities.reports.title",
+        descriptionKey:
+          "groups.transportation.capabilities.reports.description",
+        icon: "chart-column",
+      },
+    ],
+  },
+  {
+    id: "library",
+    anchor: "library",
+    titleKey: "groups.library.title",
+    shortKey: "groups.library.short",
+    descriptionKey: "groups.library.description",
+    icon: "library",
+    screenshotKey: "library",
+    screenshotAltKey: "groups.library.screenshotAlt",
+    capabilities: [
+      {
+        id: "books",
+        titleKey: "groups.library.capabilities.books.title",
+        descriptionKey: "groups.library.capabilities.books.description",
+        icon: "book-open",
+      },
+      {
+        id: "digital",
+        titleKey: "groups.library.capabilities.digital.title",
+        descriptionKey: "groups.library.capabilities.digital.description",
+        icon: "library",
+      },
+      {
+        id: "student-access",
+        titleKey: "groups.library.capabilities.studentAccess.title",
+        descriptionKey:
+          "groups.library.capabilities.studentAccess.description",
+        icon: "book-user",
+      },
+      {
+        id: "catalog",
+        titleKey: "groups.library.capabilities.catalog.title",
+        descriptionKey: "groups.library.capabilities.catalog.description",
+        icon: "file-text",
+      },
+      {
+        id: "self-learning",
+        titleKey: "groups.library.capabilities.selfLearning.title",
+        descriptionKey:
+          "groups.library.capabilities.selfLearning.description",
+        icon: "graduation-cap",
+      },
+    ],
+  },
+  {
     id: "portals-admin",
     anchor: "portals-admin",
     titleKey: "groups.portalsAdmin.title",

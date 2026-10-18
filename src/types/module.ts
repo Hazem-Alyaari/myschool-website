@@ -4,7 +4,8 @@ export type ModuleIconId =
   | "clipboard-check"
   | "wallet"
   | "briefcase"
-  | "messages";
+  | "messages"
+  | "bus";
 
 export type ModuleItem = {
   id: string;
