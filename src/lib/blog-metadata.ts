@@ -8,6 +8,7 @@ import {
 import { siteConfig } from "@/config/site";
 import { articlePath } from "@/lib/blog";
 import {
+  getProductScreenshot,
   productScreenshots,
   type ProductScreenshotKey,
 } from "@/lib/product-media";
@@ -21,9 +22,12 @@ function isProductScreenshotKey(
   return value in productScreenshots;
 }
 
-export function resolveArticleImageSrc(image: ArticleImage): string {
+export function resolveArticleImageSrc(
+  image: ArticleImage,
+  locale: string,
+): string {
   if (isProductScreenshotKey(image.src)) {
-    return productScreenshots[image.src].src;
+    return getProductScreenshot(image.src, locale).src;
   }
   return withBasePath(image.src);
 }
@@ -64,7 +68,7 @@ export function buildArticleMetadata(
 
   const absoluteOgImage =
     base && ogImage
-      ? `${base}${resolveArticleImageSrc(ogImage)}`
+      ? `${base}${resolveArticleImageSrc(ogImage, article.locale)}`
       : undefined;
 
   return {

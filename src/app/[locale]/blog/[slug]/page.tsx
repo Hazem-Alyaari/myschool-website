@@ -218,7 +218,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             <Reveal>
               <figure className="overflow-hidden rounded-[var(--radius-lg)] border border-border bg-muted">
                 <Image
-                  src={resolveArticleImageSrc(article.image)}
+                  src={resolveArticleImageSrc(article.image, article.locale)}
                   alt={article.image.alt}
                   width={resolveArticleImageDimensions(article.image).width}
                   height={resolveArticleImageDimensions(article.image).height}

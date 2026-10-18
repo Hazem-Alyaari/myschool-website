@@ -1,8 +1,10 @@
 import { withBasePath } from "@/lib/utils";
+import { routing, type Locale } from "@/i18n/routing";
 
 /**
  * Product screenshot media config for marketing.
- * Mark `available: true` only when the file exists under public/images/screenshots/.
+ * Files live under public/images/screenshots/{locale}/.
+ * Mark `available: true` only when the file exists for both locales.
  *
  * Mapping:
  * - students → students.png
@@ -22,13 +24,17 @@ const hdSlot = {
   recommendedHeight: 950,
 } as const;
 
-function shot(path: `/images/screenshots/${string}`) {
-  return withBasePath(path);
+function resolveScreenshotLocale(locale: string): Locale {
+  return locale === "en" || locale === "ar" ? locale : routing.defaultLocale;
+}
+
+function shot(locale: Locale, file: string) {
+  return withBasePath(`/images/screenshots/${locale}/${file}`);
 }
 
 export const productScreenshots = {
   dashboard: {
-    src: shot("/images/screenshots/dashboard.png"),
+    file: "dashboard.png",
     available: true,
     width: 1024,
     height: 506,
@@ -36,7 +42,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   students: {
-    src: shot("/images/screenshots/students.png"),
+    file: "students.png",
     available: true,
     width: 1911,
     height: 948,
@@ -44,7 +50,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   academics: {
-    src: shot("/images/screenshots/schedule.png"),
+    file: "schedule.png",
     available: true,
     width: 1911,
     height: 948,
@@ -52,7 +58,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   attendance: {
-    src: shot("/images/screenshots/grades.png"),
+    file: "grades.png",
     available: true,
     width: 1911,
     height: 949,
@@ -60,7 +66,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   finance: {
-    src: shot("/images/screenshots/accounting.png"),
+    file: "accounting.png",
     available: true,
     width: 1911,
     height: 949,
@@ -68,7 +74,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   hr: {
-    src: shot("/images/screenshots/employees.png"),
+    file: "employees.png",
     available: true,
     width: 1911,
     height: 957,
@@ -76,7 +82,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   supervision: {
-    src: shot("/images/screenshots/supervision.png"),
+    file: "supervision.png",
     available: true,
     width: 1911,
     height: 957,
@@ -84,7 +90,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   operations: {
-    src: shot("/images/screenshots/behavior.png"),
+    file: "behavior.png",
     available: true,
     width: 1911,
     height: 957,
@@ -92,7 +98,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   permissions: {
-    src: shot("/images/screenshots/permissions.png"),
+    file: "permissions.png",
     available: true,
     width: 1911,
     height: 957,
@@ -100,7 +106,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   studentPortal: {
-    src: shot("/images/screenshots/student-portal.png"),
+    file: "student-portal.png",
     available: true,
     width: 1899,
     height: 952,
@@ -108,7 +114,7 @@ export const productScreenshots = {
     ...hdSlot,
   },
   guardianPortal: {
-    src: shot("/images/screenshots/guardian-portal.png"),
+    file: "guardian-portal.png",
     available: true,
     width: 1899,
     height: 952,
@@ -118,3 +124,15 @@ export const productScreenshots = {
 } as const;
 
 export type ProductScreenshotKey = keyof typeof productScreenshots;
+
+export function getProductScreenshot(
+  key: ProductScreenshotKey,
+  locale: string,
+) {
+  const meta = productScreenshots[key];
+  const resolvedLocale = resolveScreenshotLocale(locale);
+  return {
+    ...meta,
+    src: shot(resolvedLocale, meta.file),
+  };
+}

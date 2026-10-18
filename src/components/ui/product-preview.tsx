@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import { Expand } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
-import { productScreenshots } from "@/lib/product-media";
+import { getProductScreenshot } from "@/lib/product-media";
 import { ImageLightbox } from "@/components/ui/image-lightbox";
 
 type ProductPreviewProps = {
@@ -23,11 +23,14 @@ export function ProductPreview({
   alt,
   caption,
   className,
-  src = productScreenshots.dashboard.src,
+  src,
 }: ProductPreviewProps) {
   const t = useTranslations("Hero");
-  const showImage = productScreenshots.dashboard.available;
-  const { width, height } = productScreenshots.dashboard;
+  const locale = useLocale();
+  const dashboard = getProductScreenshot("dashboard", locale);
+  const imageSrc = src ?? dashboard.src;
+  const showImage = dashboard.available;
+  const { width, height } = dashboard;
 
   return (
     <figure className={cn("w-full", className)}>
@@ -60,7 +63,7 @@ export function ProductPreview({
 
         {showImage ? (
           <ImageLightbox
-            src={src}
+            src={imageSrc}
             alt={alt}
             width={width}
             height={height}
@@ -68,7 +71,7 @@ export function ProductPreview({
             closeLabel={t("closePreview")}
           >
             <Image
-              src={src}
+              src={imageSrc}
               alt={alt}
               width={width}
               height={height}

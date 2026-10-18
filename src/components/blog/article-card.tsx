@@ -42,7 +42,7 @@ export function ArticleCard({
           className="relative block aspect-[16/10] overflow-hidden rounded-[var(--radius-lg)] border border-border bg-muted"
         >
           <Image
-            src={resolveArticleImageSrc(article.image)}
+            src={resolveArticleImageSrc(article.image, locale)}
             alt={article.image.alt}
             width={resolveArticleImageDimensions(article.image).width}
             height={resolveArticleImageDimensions(article.image).height}

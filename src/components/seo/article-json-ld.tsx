@@ -41,7 +41,9 @@ export function ArticleJsonLd({ article }: ArticleJsonLdProps) {
       "@type": "Organization",
       name: brand,
     },
-    image: image ? `${base}${resolveArticleImageSrc(image)}` : undefined,
+    image: image
+      ? `${base}${resolveArticleImageSrc(image, article.locale)}`
+      : undefined,
   };
 
   return <JsonLd data={data} />;

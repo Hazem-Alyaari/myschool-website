@@ -7,7 +7,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { getBrandName } from "@/config/site";
 import { cn } from "@/lib/utils";
 import {
-  productScreenshots,
+  getProductScreenshot,
   type ProductScreenshotKey,
 } from "@/lib/product-media";
 import { ImageLightbox } from "@/components/ui/image-lightbox";
@@ -32,7 +32,7 @@ export function FeatureVisual({
   const t = useTranslations("Features");
   const locale = useLocale();
   const brand = getBrandName(locale);
-  const shot = productScreenshots[screenshotKey];
+  const shot = getProductScreenshot(screenshotKey, locale);
   const [failed, setFailed] = useState(false);
 
   const showImage = Boolean(shot?.available) && !failed;
