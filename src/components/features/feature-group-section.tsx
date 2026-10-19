@@ -79,12 +79,22 @@ export async function FeatureGroupSection({
           </ul>
         </Reveal>
 
-        <Reveal className={cn(visualFirst && "lg:order-1")} delay={0.08}>
+        <Reveal
+          className={cn("space-y-4", visualFirst && "lg:order-1")}
+          delay={0.08}
+        >
           <FeatureVisual
             screenshotKey={group.screenshotKey}
             alt={t(group.screenshotAltKey)}
             placeholderLabel={t("screenshotPlaceholder")}
           />
+          {group.secondaryScreenshotKey && group.secondaryScreenshotAltKey ? (
+            <FeatureVisual
+              screenshotKey={group.secondaryScreenshotKey}
+              alt={t(group.secondaryScreenshotAltKey)}
+              placeholderLabel={t("screenshotPlaceholder")}
+            />
+          ) : null}
         </Reveal>
       </div>
     </section>

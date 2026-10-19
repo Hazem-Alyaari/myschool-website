@@ -107,6 +107,8 @@ export const featureGroups = [
     icon: "clipboard-check",
     screenshotKey: "attendance",
     screenshotAltKey: "groups.attendanceAssessment.screenshotAlt",
+    secondaryScreenshotKey: "seatNumbers",
+    secondaryScreenshotAltKey: "groups.attendanceAssessment.seatNumbersAlt",
     capabilities: [
       {
         id: "attendance",

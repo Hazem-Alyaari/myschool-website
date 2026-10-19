@@ -38,6 +38,7 @@ export type FeatureScreenshotKey =
   | "students"
   | "academics"
   | "attendance"
+  | "seatNumbers"
   | "finance"
   | "hr"
   | "supervision"
@@ -66,6 +67,9 @@ export type FeatureGroup = {
   icon: FeatureIconId;
   screenshotKey: FeatureScreenshotKey;
   screenshotAltKey: string;
+  /** Optional second product shot shown under the primary visual. */
+  secondaryScreenshotKey?: FeatureScreenshotKey;
+  secondaryScreenshotAltKey?: string;
   capabilities: readonly FeatureCapability[];
 };
 
