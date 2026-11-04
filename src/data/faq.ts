@@ -91,6 +91,45 @@ export const faqItems = [
     },
   },
   {
+    id: "grade-entry",
+    category: "features",
+    questionKey: "items.gradeEntry.question",
+    answerKey: "items.gradeEntry.answer",
+    related: {
+      type: "route",
+      href: routes.features,
+      labelKey: "related.features",
+    },
+  },
+  {
+    id: "published-results",
+    category: "features",
+    questionKey: "items.publishedResults.question",
+    answerKey: "items.publishedResults.answer",
+    related: {
+      type: "route",
+      href: routes.solutions,
+      labelKey: "related.solutions",
+    },
+  },
+  {
+    id: "mid-year",
+    category: "features",
+    questionKey: "items.midYear.question",
+    answerKey: "items.midYear.answer",
+    related: {
+      type: "route",
+      href: routes.features,
+      labelKey: "related.features",
+    },
+  },
+  {
+    id: "mobile-offline",
+    category: "features",
+    questionKey: "items.mobileOffline.question",
+    answerKey: "items.mobileOffline.answer",
+  },
+  {
     id: "exams",
     category: "features",
     questionKey: "items.exams.question",

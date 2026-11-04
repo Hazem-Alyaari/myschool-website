@@ -73,8 +73,9 @@ Binaa School provides tools for following student attendance as part of the wide
 
 Capabilities include:
 
-- Daily student attendance
+- Daily student attendance from the class roster
 - Absence and attendance records
+- Excuse requests for an absence or a late mark, when attendance is enabled and the user has permission to submit or review them
 - Attendance follow-up
 - Attendance reports
 - Student attendance visibility
@@ -92,15 +93,13 @@ Manage student assessment and academic results in the same environment used for 
 Binaa School supports:
 
 - Exams and assessment workflows
-- Student grades
-- Periodic and academic results
-- Grade entry and follow-up
-- Result sheets
-- Report cards
-- Academic performance information
-- Attendance-related reporting
-- Student access to relevant results
-- Guardian access to relevant academic results
+- One entry workspace for monthly grades, term grades, and exam results
+- Arabic and English digits, checked before a score is saved
+- Keyboard movement, paste preview, templates, and drafts while a class is being entered
+- Subject groups that can show a parent subject with its child subjects on reports and certificates
+- Result sheets and report cards
+- Publishing results and certificates separately from grades still being entered
+- Student and guardian access to published results and certificates
 - Academic reports and analytics
 
 ---
@@ -127,7 +126,7 @@ School staff can work with financial information without separating it completel
 
 ## Accounting
 
-Beyond student fee collection, Binaa School includes accounting capabilities for school financial operations.
+Beyond student fee collection, Binaa School includes accounting capabilities when the school uses full accounting. Fees-only and education-only modes keep the extra accounting screens hidden. This is school accounting, not a claim that every ERP module is included.
 
 The platform includes areas for:
 
@@ -227,11 +226,13 @@ Depending on the information available to the student, the portal can bring toge
 
 - Class schedule
 - Homework
-- Grades and results
+- Published grades, results, and certificates
 - Attendance
 - Academic information
 - Documents
 - School-related information relevant to the student
+
+Grades that are still being entered or reviewed stay with staff.
 
 ---
 
@@ -241,9 +242,8 @@ Parents and guardians have a dedicated experience for following information rela
 
 Relevant areas include:
 
-- Academic follow-up
-- Grades and results
-- Attendance
+- Academic follow-up of published results and certificates
+- Attendance, including an absence or late excuse when attendance is enabled and the guardian is linked to the student
 - Homework and schedule information
 - Relevant financial information
 - School communication
@@ -259,11 +259,13 @@ Binaa School includes communication and notification capabilities for keeping sc
 
 These areas include:
 
-- Notifications
+- In-app notifications, which a school can keep live, load when the inbox is opened, or turn off
 - Conversations
 - User communication
 - School announcements and operational communication
-- Role-relevant information delivery
+- Role-relevant information inside the system
+
+A notification on a phone still depends on that school's notification setup. The website does not promise delivery to every device.
 
 ---
 
@@ -281,10 +283,12 @@ Binaa School brings additional operational areas into the same platform rather t
 
 Depending on the configured school environment, the platform includes operational capabilities around areas such as:
 
-- Branch management
-- School configuration
+- Branch management, including a main campus and staff limited to selected branches
+- Academic years, terms, and school policies for grades, attendance, and homework
+- A mid-year start that reuses students already registered and prepares templates for prior-term grade summaries, attendance totals, and opening balances
+- Optional features that can be turned off without deleting existing records or rewriting role permissions
 - Official documents
-- Notifications
+- In-app notifications
 - Conversations
 - Operational records
 - Reports

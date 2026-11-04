@@ -59,7 +59,7 @@ export const solutionAudiences = [
     problemKey: "audiences.teachers.problem",
     approachKey: "audiences.teachers.approach",
     icon: "graduation-cap",
-    screenshotKey: "academics",
+    screenshotKey: "grades",
     screenshotAltKey: "audiences.teachers.screenshotAlt",
     relatedFeatureAnchors: ["academics", "attendance-assessment"],
     highlights: [

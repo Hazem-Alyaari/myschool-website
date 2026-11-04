@@ -38,6 +38,7 @@ export type FeatureScreenshotKey =
   | "students"
   | "academics"
   | "attendance"
+  | "grades"
   | "seatNumbers"
   | "finance"
   | "hr"

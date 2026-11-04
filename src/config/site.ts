@@ -6,8 +6,26 @@ export type SiteLocale = Locale;
 
 export type LocaleDirection = "rtl" | "ltr";
 
+/**
+ * Read a public env var with a static `process.env.NEXT_PUBLIC_*` access.
+ * A dynamic `process.env[key]` lookup stays empty in the browser bundle, so
+ * server-rendered demo links would not match the client.
+ */
 function readPublicEnv(key: `NEXT_PUBLIC_${string}`): string {
-  const value = process.env[key];
+  const value =
+    key === "NEXT_PUBLIC_SITE_URL"
+      ? process.env.NEXT_PUBLIC_SITE_URL
+      : key === "NEXT_PUBLIC_APP_URL"
+        ? process.env.NEXT_PUBLIC_APP_URL
+        : key === "NEXT_PUBLIC_DEMO_URL"
+          ? process.env.NEXT_PUBLIC_DEMO_URL
+          : key === "NEXT_PUBLIC_CONTACT_EMAIL"
+            ? process.env.NEXT_PUBLIC_CONTACT_EMAIL
+            : key === "NEXT_PUBLIC_CONTACT_PHONE"
+              ? process.env.NEXT_PUBLIC_CONTACT_PHONE
+              : key === "NEXT_PUBLIC_WHATSAPP_URL"
+                ? process.env.NEXT_PUBLIC_WHATSAPP_URL
+                : "";
   if (!value) {
     return "";
   }
@@ -39,7 +57,7 @@ const localeDirections = {
 } as const satisfies Record<SiteLocale, LocaleDirection>;
 
 const defaultDescription =
-  "Binaa School is a multi-tenant school management platform that unifies admissions, academics, finance, HR, academic supervision, and family communication.";
+  "Binaa School is a school management platform for grades, attendance, fees, and family portals. Schools can start during the year with students already on record, and families see published results.";
 
 /**
  * Central site configuration for the Binaa School marketing website.

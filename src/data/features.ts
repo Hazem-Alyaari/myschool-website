@@ -72,6 +72,12 @@ export const featureGroups = [
         icon: "building-2",
       },
       {
+        id: "mid-year",
+        titleKey: "groups.academics.capabilities.midYear.title",
+        descriptionKey: "groups.academics.capabilities.midYear.description",
+        icon: "calendar-days",
+      },
+      {
         id: "curriculum",
         titleKey: "groups.academics.capabilities.curriculum.title",
         descriptionKey: "groups.academics.capabilities.curriculum.description",
@@ -105,10 +111,10 @@ export const featureGroups = [
     shortKey: "groups.attendanceAssessment.short",
     descriptionKey: "groups.attendanceAssessment.description",
     icon: "clipboard-check",
-    screenshotKey: "attendance",
-    screenshotAltKey: "groups.attendanceAssessment.screenshotAlt",
-    secondaryScreenshotKey: "seatNumbers",
-    secondaryScreenshotAltKey: "groups.attendanceAssessment.seatNumbersAlt",
+    screenshotKey: "grades",
+    screenshotAltKey: "groups.attendanceAssessment.gradesAlt",
+    secondaryScreenshotKey: "attendance",
+    secondaryScreenshotAltKey: "groups.attendanceAssessment.screenshotAlt",
     capabilities: [
       {
         id: "attendance",
@@ -154,6 +160,13 @@ export const featureGroups = [
         descriptionKey:
           "groups.attendanceAssessment.capabilities.grading.description",
         icon: "clipboard-check",
+      },
+      {
+        id: "grade-entry",
+        titleKey: "groups.attendanceAssessment.capabilities.gradeEntry.title",
+        descriptionKey:
+          "groups.attendanceAssessment.capabilities.gradeEntry.description",
+        icon: "pen-line",
       },
       {
         id: "committees",
@@ -535,6 +548,13 @@ export const featureGroups = [
         descriptionKey:
           "groups.portalsAdmin.capabilities.settings.description",
         icon: "user-cog",
+      },
+      {
+        id: "search",
+        titleKey: "groups.portalsAdmin.capabilities.search.title",
+        descriptionKey:
+          "groups.portalsAdmin.capabilities.search.description",
+        icon: "file-text",
       },
     ],
   },

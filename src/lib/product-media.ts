@@ -10,6 +10,7 @@ import { routing, type Locale } from "@/i18n/routing";
  * - students → students.png
  * - academics → schedule.png
  * - attendance → question-banks.png
+ * - grades → grades.png
  * - seatNumbers → seat-numbers.png
  * - finance → accounting.png
  * - hr → employees.png
@@ -67,6 +68,14 @@ export const productScreenshots = {
     width: 1024,
     height: 530,
     aspectRatio: "1024 / 530",
+    ...hdSlot,
+  },
+  grades: {
+    file: "grades.png",
+    available: true,
+    width: 1024,
+    height: 533,
+    aspectRatio: "1024 / 533",
     ...hdSlot,
   },
   seatNumbers: {

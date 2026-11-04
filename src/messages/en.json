@@ -1,7 +1,7 @@
 {
   "Meta": {
     "title": "Binaa School — School Management Platform",
-    "description": "A multi-tenant school management platform for learning, fees, exams, and results — unifying admissions, academics, HR, academic supervision, and family communication, with a public demo."
+    "description": "A school management platform for grades, attendance, fees, and family portals. Schools can start during the year with students already on record, and families see published results."
   },
   "Navigation": {
     "home": "Home",
@@ -32,8 +32,8 @@
   },
   "Hero": {
     "brand": "Binaa School",
-    "title": "An integrated school system for learning, fees, exams, and results",
-    "description": "From admissions, students, and academics to fees, question banks, exams, results, and HR — Binaa School brings school work together in one place.",
+    "title": "One school system for grades, attendance, fees, and families",
+    "description": "Enter monthly, term, and exam results in one workspace, follow attendance and fees, and start during the year with students already on record. Students and parents see published results and certificates.",
     "primaryCta": "Try Binaa School Free",
     "secondaryCta": "Explore Features",
     "previewAlt": "Binaa School dashboard — daily school overview",
@@ -77,12 +77,12 @@
     "assessment": {
       "short": "Question banks & assessment",
       "title": "Rich question banks and smart assessment",
-      "description": "Digital and descriptive exams from question banks, with committees and seat numbers, grading, PDF certificates and reports, and question analytics."
+      "description": "Grade entry is now very easy: monthly, term, and exam scores on one screen, plus question banks, committees, and certificates families see after they are published."
     },
     "finance": {
       "short": "Finance",
       "title": "Fees & accounting",
-      "description": "Fee collection, student accounts, expenses, and accounting including payroll."
+      "description": "Fee collection and student balances, with journals, statements, payroll, and fixed assets when full accounting is turned on."
     },
     "hrSupervision": {
       "short": "HR & supervision",
@@ -92,7 +92,7 @@
     "operations": {
       "short": "Operations",
       "title": "Communication & operations",
-      "description": "Notifications, conversations, official documents, permissions, and branches."
+      "description": "In-app notifications, conversations, documents, permissions, and campuses with their own access."
     },
     "schoolServices": {
       "short": "School services",
@@ -115,7 +115,7 @@
       },
       "assessment": {
         "title": "Exams & results",
-        "description": "Question banks, digital and descriptive exams, results, and certificates."
+        "description": "Question banks, exams, and a shared grade workspace, with certificates published when they are ready."
       },
       "finance": {
         "title": "Fees & administration",
@@ -134,11 +134,11 @@
     "note": "Permissions are not identical for everyone. Experiences differ across administration, teachers, supervisors, students, and parents.",
     "administration": {
       "title": "School administration",
-      "description": "Daily operations, settings, and access control from the school workspace."
+      "description": "Campuses, academic years and terms, optional features, and who may work in each branch."
     },
     "teachers": {
       "title": "Teachers",
-      "description": "Attendance, homework, exams, and grades, plus HR self-service."
+      "description": "Roster attendance, homework, exams, and grade entry for their classes, with drafts checked before saving."
     },
     "supervisors": {
       "title": "Educational supervisors",
@@ -154,11 +154,11 @@
     },
     "students": {
       "title": "Students",
-      "description": "A portal for schedule, homework, grades, and attendance."
+      "description": "Schedule, homework, attendance, and results and certificates after the school publishes them."
     },
     "guardians": {
       "title": "Parents & guardians",
-      "description": "A portal to follow academics, finance, and school communication."
+      "description": "Published results, attendance, relevant fees, and a way to request an absence excuse when the school allows it."
     }
   },
   "Cta": {
@@ -176,11 +176,11 @@
   "DownloadApp": {
     "eyebrow": "App",
     "title": "Download the Binaa School app",
-    "description": "Install the app on your device for easier access on Android or Mac.",
+    "description": "Install the Android app directly from this website. It is an APK file, not a Google Play listing.",
     "platforms": {
       "android": {
         "cta": "Download for Android",
-        "hint": "APK file — install directly on the device"
+        "hint": "Direct APK install. Some saved screens work offline after they are opened online."
       },
       "mac": {
         "cta": "Download for Mac",
@@ -227,12 +227,12 @@
   "Features": {
     "meta": {
       "title": "Binaa School Features — Integrated School Management System",
-      "description": "Explore Binaa School capabilities: admissions and students, academics, attendance and exams, fees and accounting, HR, educational supervision, school transport, library, and voice input — in one school management platform."
+      "description": "Explore admissions, grade entry, attendance, published certificates, fees, accounting, HR, supervision, branches, and family portals in one school management platform."
     },
     "hero": {
       "eyebrow": "Features",
       "title": "Everything you need to run your school in one system",
-      "description": "Binaa School brings learning, fees, exams, and results together with administrative and financial workflows — with clear permissions for every school role.",
+      "description": "Binaa School brings grade entry, attendance, fees, and family portals together with school administration — and each role sees only what their permissions allow.",
       "primaryCta": "Try Binaa School Free",
       "secondaryCta": "Back to homepage"
     },
@@ -261,11 +261,11 @@
           },
           "studentPortal": {
             "title": "Student portal",
-            "description": "Schedule, homework, grades, and attendance for students."
+            "description": "Schedule, homework, and attendance, plus results and certificates after the school publishes them."
           },
           "guardianPortal": {
             "title": "Guardian portal",
-            "description": "Follow academics, finance, and school communication."
+            "description": "Follow published results, attendance, and relevant fees, and send an absence excuse when attendance is enabled."
           }
         }
       },
@@ -277,7 +277,7 @@
         "capabilities": {
           "structure": {
             "title": "Academic structure",
-            "description": "Years, stages, classes, and school setup."
+            "description": "Academic years, terms, stages, classes, and the school’s core setup."
           },
           "curriculum": {
             "title": "Curriculum & plans",
@@ -291,22 +291,27 @@
             "title": "Homework",
             "description": "Create and follow homework across relevant roles."
           },
+          "midYear": {
+            "title": "Start during the year",
+            "description": "Load students who are already registered instead of creating them again, then fill templates for prior-term grade summaries, attendance totals, and opening balances. Daily history from before the start date is not rebuilt."
+          },
           "teacherWorkspace": {
             "title": "Teacher workspace",
-            "description": "Class tools, attendance, and grades for teachers."
+            "description": "Class tools, roster attendance, and grade entry for the classes a teacher is assigned."
           }
         }
       },
       "attendanceAssessment": {
         "short": "Attendance & exams",
         "title": "Rich question banks and smart assessment",
-        "description": "Create digital and descriptive exams from renewing question banks, organize committees and seat numbers automatically, grade with precise controls, and issue certificates and reports at the click of a button. Teachers teach — the system handles the details.",
+        "description": "Grade entry is now very easy. Monthly grades, term grades, and exam results share one clear screen, then exams are built from question banks and certificates are published when results are ready. Subject groups can show a parent subject together with its child subjects on reports.",
+        "gradesAlt": "Binaa School monthly grades screen, entering scores from the class grid",
         "screenshotAlt": "Binaa School question banks interface",
         "seatNumbersAlt": "Binaa School exam seating number cards and committees",
         "capabilities": {
           "attendance": {
             "title": "Student attendance",
-            "description": "Track presence and absences in class."
+            "description": "Record attendance from the class roster. When attendance is enabled, a linked guardian can request an excuse for an absence or a late mark, and staff with permission can approve or reject it."
           },
           "questionBanks": {
             "title": "Question banks",
@@ -326,7 +331,11 @@
           },
           "grading": {
             "title": "Auto & manual grading",
-            "description": "Grade automatically where it fits, and review manually when needed with precise controls."
+            "description": "Grade automatically where it fits, and review manually when a person still needs to decide."
+          },
+          "gradeEntry": {
+            "title": "Grade entry is now very easy",
+            "description": "Monthly, term, and exam scores sit in one clear class grid. Arabic and English digits are checked before saving, and staff can move with the keyboard, paste a preview, or use a template while a draft keeps unfinished work."
           },
           "committees": {
             "title": "Committees & seat numbers",
@@ -334,7 +343,7 @@
           },
           "certificatesReports": {
             "title": "PDF certificates & reports",
-            "description": "Post results and issue certificates and reports as PDF at the click of a button."
+            "description": "Publish report cards and certificates when the school is ready to share them. Configured subject groups can present a parent subject with its child subjects so a combined subject is not counted as separate totals. Families see the published copy."
           },
           "analytics": {
             "title": "Question analytics",
@@ -345,7 +354,7 @@
       "financeAccounting": {
         "short": "Finance",
         "title": "Fees, accounting & payroll",
-        "description": "Collect fees, manage student accounts, and run advanced accounting including payroll and expenses.",
+        "description": "Collect fees and follow student balances. When the school turns on full accounting, staff can also use journals, financial statements, payroll, expenses, and a fixed-asset register. Fees-only and education-only modes hide the accounting screens that do not apply.",
         "screenshotAlt": "Binaa School accounting interface",
         "capabilities": {
           "fees": {
@@ -362,7 +371,7 @@
           },
           "accounting": {
             "title": "Advanced accounting",
-            "description": "Ledger, journals, and financial statements."
+            "description": "Journals, financial statements, and a register of buildings, equipment, and furniture when full accounting is enabled."
           },
           "payroll": {
             "title": "Payroll",
@@ -430,7 +439,7 @@
         "capabilities": {
           "notifications": {
             "title": "Notifications",
-            "description": "Deliver alerts to the right roles."
+            "description": "In-app alerts for the people who should see them. A school can keep delivery live, load the inbox when someone opens it, or turn it off. A phone notification still depends on that school’s setup."
           },
           "conversations": {
             "title": "Conversations",
@@ -537,7 +546,7 @@
       "portalsAdmin": {
         "short": "Admin & access",
         "title": "Dashboard, permissions & branches",
-        "description": "A daily overview and action center, with granular permissions, branch management, and school settings.",
+        "description": "A daily overview, page permissions, campuses, academic years and terms, and switches for the features a school actually uses.",
         "screenshotAlt": "Binaa School permissions matrix",
         "capabilities": {
           "dashboard": {
@@ -546,15 +555,19 @@
           },
           "permissions": {
             "title": "Permissions",
-            "description": "Role and page permission matrix."
+            "description": "Choose what each role can open. Access can also be limited to selected branches. Turning a school feature off hides that area without rewriting those permissions."
           },
           "branches": {
             "title": "Branches",
-            "description": "Manage school branches in one platform."
+            "description": "Add and update campuses, set a main branch, and choose whether a staff member works in every branch or only selected ones."
           },
           "settings": {
             "title": "School settings",
-            "description": "Configure policies and core school information."
+            "description": "Set academic years, terms, and policies for grades, attendance, and homework, and choose which optional areas stay on."
+          },
+          "search": {
+            "title": "Search and long lists",
+            "description": "Find students, guardians, employees, receipts, and supplier invoices. Long lists of students, exam seating, and certificates move page by page."
           }
         }
       }
@@ -574,7 +587,7 @@
         },
         "assessment": {
           "title": "Exams & results",
-          "description": "Question banks, exams, grades, certificates, and reports."
+          "description": "Question banks, exams, grade entry, and certificates after they are published."
         },
         "fees": {
           "title": "Fees",
@@ -611,7 +624,7 @@
   "Solutions": {
     "meta": {
       "title": "Binaa School Solutions — Built for Every School Role",
-      "description": "See how Binaa School supports school management, teachers, educational supervision, finance, HR, students, and parents — with role-appropriate workspaces and permissions."
+      "description": "See how administrators, teachers, supervisors, finance, HR, students, and parents use Binaa School — including published results, branch access, and grade entry."
     },
     "hero": {
       "eyebrow": "Solutions",
@@ -628,7 +641,7 @@
         "short": "School management",
         "title": "A clearer view of day-to-day school operations",
         "problem": "School information is often scattered across departments, spreadsheets, and separate tools — making it harder for leadership to follow what is happening.",
-        "approach": "Binaa School gives management a dashboard, an action center, and granular permissions — with visibility into students, academics, finance, HR, and reports according to granted access.",
+        "approach": "Management gets a dashboard and an action center, sets academic years and terms, turns optional features on or off, and limits staff to the branches they should work in.",
         "screenshotAlt": "Binaa School daily operations dashboard",
         "highlights": {
           "dashboard": {
@@ -641,11 +654,11 @@
           },
           "permissions": {
             "title": "Permission control",
-            "description": "Decide what each role can see and manage."
+            "description": "Decide which pages each role can open, separately from which school features are turned on."
           },
           "branches": {
             "title": "Branch management",
-            "description": "Manage school branches in the same platform when needed."
+            "description": "Add campuses, choose a main branch, and assign staff to all branches or only selected ones."
           }
         }
       },
@@ -653,8 +666,8 @@
         "short": "Teachers",
         "title": "A teaching workspace for daily classroom work",
         "problem": "Teachers need attendance, homework, exams, grades, and class follow-up without jumping between disconnected tools.",
-        "approach": "The teacher workspace brings together class tools, schedules, homework, attendance, exams, and grades — plus HR self-service for attendance, leave, and payslips when permitted.",
-        "screenshotAlt": "Academic schedule tools used in teaching workflows",
+        "approach": "Teachers work with their classes, schedules, homework, roster attendance, and the shared grade workspace for monthly, term, and exam results — plus HR self-service when they are allowed.",
+        "screenshotAlt": "Monthly grades screen, where entering scores is now very easy",
         "highlights": {
           "classroom": {
             "title": "Classroom tools",
@@ -662,11 +675,11 @@
           },
           "attendance": {
             "title": "Class attendance",
-            "description": "Record and follow student attendance in class."
+            "description": "Mark the class from its roster, and review absence excuses when you have permission."
           },
           "grades": {
             "title": "Exams & grades",
-            "description": "Build exams from question banks, grade work, and follow class results."
+            "description": "Grade entry is now very easy, in one grid for monthly, term, and exam scores, with digits checked before saving."
           },
           "selfService": {
             "title": "Self-service",
@@ -703,7 +716,7 @@
         "short": "Finance",
         "title": "Student fees and school accounting in one path",
         "problem": "When fee records are separated from accounts and accounting, collections and financial follow-up become harder to manage.",
-        "approach": "Binaa School connects fee setup, collections, and student accounts with advanced accounting and payroll under the finance team’s permissions.",
+        "approach": "Finance staff collect fees and follow balances. Full accounting adds journals, statements, payroll, expenses, and fixed assets. A fees-only or education-only school keeps the extra accounting screens hidden.",
         "screenshotAlt": "Binaa School accounting interface",
         "highlights": {
           "fees": {
@@ -716,7 +729,7 @@
           },
           "accounting": {
             "title": "Advanced accounting",
-            "description": "Journals and financial reporting in the accounting module."
+            "description": "Journals, statements, and fixed assets when the school uses full accounting."
           },
           "payroll": {
             "title": "Payroll",
@@ -753,7 +766,7 @@
         "short": "Students",
         "title": "A dedicated student portal — not the admin system",
         "problem": "Students need their schedule, homework, grades, and attendance without access to administrative tools.",
-        "approach": "The student portal provides a dedicated space for schedule, homework, grades, attendance, and related documents according to permissions.",
+        "approach": "Students open their own schedule, homework, and attendance. Results and certificates appear after the school publishes them. Scores still being entered stay with staff.",
         "screenshotAlt": "Binaa School student portal",
         "highlights": {
           "schedule": {
@@ -766,7 +779,7 @@
           },
           "grades": {
             "title": "Grades & results",
-            "description": "Review grades and report cards."
+            "description": "Open results and certificates after the school publishes them."
           },
           "documents": {
             "title": "Documents",
@@ -778,12 +791,12 @@
         "short": "Parents & guardians",
         "title": "Follow children from the guardian portal",
         "problem": "Guardians need a clear place to follow their children’s academics and relevant financial information, and to communicate with the school.",
-        "approach": "The guardian portal supports academic follow-up, attendance, grades, and related financial information — with communication channels according to the platform’s access model.",
+        "approach": "Guardians follow published results, attendance, and relevant fees for their children. When attendance is enabled, a linked guardian can submit an excuse for an absence or a late mark.",
         "screenshotAlt": "Binaa School guardian portal",
         "highlights": {
           "followUp": {
             "title": "Academic follow-up",
-            "description": "Follow each child’s academic status."
+            "description": "Follow published results and certificates for each child."
           },
           "attendance": {
             "title": "Attendance",
@@ -927,7 +940,7 @@
   "About": {
     "meta": {
       "title": "About Binaa School — School Management Platform",
-      "description": "Learn about Binaa School: a school management platform and school ERP that connects academics, administration, finance, HR, supervision, and portals in one system."
+      "description": "Learn about Binaa School, a school management platform for academics, administration, fees and accounting, HR, supervision, and family portals."
     },
     "screenshotPlaceholder": "A real product screenshot will appear here when available.",
     "hero": {
@@ -1050,7 +1063,7 @@
   "Faq": {
     "meta": {
       "title": "Binaa School FAQ — Demo, Features & Permissions",
-      "description": "Answers about Binaa School as a school management platform: public demo access, features, permissions, portals, and how to contact us."
+      "description": "Answers about the public demo, grade entry, starting during the year, published results, the Android app, permissions, and how to contact us."
     },
     "hero": {
       "eyebrow": "FAQ",
@@ -1111,15 +1124,31 @@
       },
       "attendance": {
         "question": "Does Binaa School include attendance?",
-        "answer": "Yes. Attendance is part of the academic and classroom workflows supported by the platform."
+        "answer": "Yes. Staff record class attendance from the student roster. When attendance is enabled, a linked guardian can submit an excuse for an absence or a late mark, and a staff member with permission can approve or reject it."
+      },
+      "gradeEntry": {
+        "question": "How do schools enter grades?",
+        "answer": "Grade entry is now very easy. Monthly grades, term grades, and exam results appear in one class grid. Staff can type Arabic or English digits, and a score is checked before it is saved. Keyboard movement, a paste preview, templates, and drafts help finish a class without losing work in progress."
+      },
+      "publishedResults": {
+        "question": "What results can students and parents see?",
+        "answer": "Students and guardians see results and certificates after the school publishes them. Grades that are still being entered or reviewed stay with staff. Publishing is a separate step from typing a score."
+      },
+      "midYear": {
+        "question": "Can a school start during the academic year?",
+        "answer": "Yes. The mid-year start can load students who are already registered and link them instead of creating a second record. Staff then use templates for prior-term grade summaries, attendance totals, and opening balances. Daily attendance from before the start date is stored as totals, not rebuilt day by day."
+      },
+      "mobileOffline": {
+        "question": "Is there a mobile app, and does it work offline?",
+        "answer": "An Android app can be installed directly from this website as an APK. There is no Google Play listing. After a screen has been opened online, some saved work can be used without a connection: grade sheets that were downloaded, attendance for a selection already on the device, timetables, and the school dashboard. Other work still needs the internet. Offline edits are kept on the device and sent after you reconnect and the session is still valid. The whole system does not work offline."
       },
       "exams": {
         "question": "Does Binaa School support exams and question banks?",
-        "answer": "Yes. Binaa School supports question banks, digital and descriptive exams, exam committees and seat numbers, result posting, PDF certificates and reports, and question analytics."
+        "answer": "Yes. Binaa School supports question banks, digital and descriptive exams, committees and seat numbers, and PDF certificates and reports. Subject groups can show a parent subject with its child subjects on those reports. Families see certificates after they are published."
       },
       "finance": {
         "question": "Does the system include accounting and fees?",
-        "answer": "Yes. The platform includes fee collection, student accounts, expenses, and accounting capabilities such as payroll-related accounting workflows."
+        "answer": "Yes. Schools can collect fees and follow student balances. Full accounting adds journals, financial statements, payroll, expenses, and a fixed-asset register. A school can instead use fees only, or turn fee collection off. This is not a claim that every business-system module is included."
       },
       "hr": {
         "question": "Does it include HR and payroll?",
@@ -1131,11 +1160,11 @@
       },
       "studentPortal": {
         "question": "Is there a student portal?",
-        "answer": "Yes. Students have a dedicated portal for areas such as schedule, homework, grades, and attendance — separate from staff workspaces."
+        "answer": "Yes. Students have a portal for schedule, homework, and attendance, separate from staff workspaces. Results and certificates appear there after the school publishes them."
       },
       "guardianPortal": {
         "question": "Is there a guardian portal?",
-        "answer": "Yes. Guardians have a dedicated portal to follow academics, finance-related information, and school communication according to granted access."
+        "answer": "Yes. Guardians follow published results, attendance, and relevant fees for their children. When attendance is enabled, a linked guardian can submit an excuse for an absence or a late mark."
       },
       "separated": {
         "question": "Are student, teacher, guardian, and staff experiences separated?",
@@ -1143,11 +1172,11 @@
       },
       "permissions": {
         "question": "How do permissions work?",
-        "answer": "Binaa School uses role- and page-based permissions. School administration controls what each role can view or manage, so access follows responsibility."
+        "answer": "Each role is granted specific pages, and a staff member can be limited to selected branches or allowed into all of them. Optional areas such as attendance, exams, or transport can be turned off for the whole school without deleting those permissions. Students and guardians do not use the staff branch picker; their access follows the children linked to them."
       },
       "branches": {
         "question": "Can Binaa School be used across more than one branch?",
-        "answer": "Yes, where needed. The platform includes branch management so schools can organize multi-branch operations within the same system."
+        "answer": "Yes. A school can add campuses, set a main branch, and choose which staff work across every branch or only selected ones. Academic years and terms are configured for the school as well."
       },
       "deployment": {
         "question": "How is Binaa School deployed or set up?",
@@ -1187,7 +1216,7 @@
       },
       "portals": {
         "question": "Is there a student and guardian portal?",
-        "answer": "Yes. Students have a dedicated portal for academic areas such as schedule, homework, grades, and attendance. Guardians have a portal to follow academics, finance-related information, and school communication according to granted access."
+        "answer": "Yes. Students see their schedule, homework, attendance, and results after publication. Guardians follow those published results, attendance, and relevant fees, and can submit an absence excuse when attendance is enabled."
       },
       "problemSupport": {
         "question": "What if we face a problem while using the system?",
