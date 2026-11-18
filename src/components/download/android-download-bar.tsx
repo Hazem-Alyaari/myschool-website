@@ -5,7 +5,7 @@ import { Download, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { buttonClassName } from "@/components/ui/button";
 
-const DISMISS_KEY = "myschool-android-download-bar-dismissed";
+const DISMISS_KEY = "binaaschool-android-download-bar-dismissed";
 
 type AndroidDownloadBarProps = {
   href: string;

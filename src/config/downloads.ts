@@ -22,12 +22,12 @@ const PLATFORM_DIRS: Record<
   android: {
     dir: "android",
     extensions: [".apk", ".aab"],
-    fileName: "myschool-android.apk",
+    fileName: "BinaaSchool.apk",
   },
   mac: {
     dir: "mac",
     extensions: [".dmg", ".pkg", ".zip"],
-    fileName: "myschool-mac.zip",
+    fileName: "BinaaSchool-mac.zip",
   },
 };
 
@@ -48,11 +48,11 @@ function findPackageFile(
     return null;
   }
 
-  // Prefer production builds (myschool.*) over debug/dev APKs when both exist.
+  // Prefer production builds (BinaaSchool.*) over debug/dev APKs when both exist.
   const ranked = [...matches].sort((a, b) => {
     const score = (name: string) => {
       const lower = name.toLowerCase();
-      if (lower.startsWith("myschool.")) return 0;
+      if (lower.startsWith("binaaschool.")) return 0;
       if (lower.includes("debug")) return 2;
       return 1;
     };

@@ -57,7 +57,7 @@ export function ProductPreview({
             aria-hidden
           />
           <span className="ms-2 truncate rounded-md border border-border/60 bg-background/90 px-2.5 py-0.5 text-[11px] text-muted-foreground">
-            app.myschool
+            app.binaaschool
           </span>
         </div>
 
