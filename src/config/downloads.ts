@@ -10,7 +10,7 @@ export type AppDownload = {
   href: string;
   /** Suggested filename for the browser download attribute. */
   fileName: string;
-};
+}; 
 
 /** Source packages live in `/downloads` (never `/app` — reserved by Next.js). */
 const DOWNLOADS_ROOT = join(process.cwd(), "downloads");
