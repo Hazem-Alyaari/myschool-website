@@ -38,6 +38,9 @@ export async function HeroSection({ locale }: HeroSectionProps) {
           >
             {t("title")}
           </h1>
+          <p className="mt-3 text-sm font-medium text-primary sm:text-base">
+            {t("byline")}
+          </p>
           <p className="mx-auto mt-4 max-w-xl text-pretty text-[0.95rem] leading-relaxed text-muted-foreground sm:text-base">
             {t("description")}
           </p>

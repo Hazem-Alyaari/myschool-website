@@ -4,6 +4,7 @@ import { footerNavigationGroups } from "@/config/navigation";
 import { getBrandName, siteConfig } from "@/config/site";
 import { Container } from "@/components/ui/container";
 import { SiteWordmark } from "@/components/ui/site-wordmark";
+import { FacebookIcon } from "@/components/ui/facebook-icon";
 import { LocaleSwitcher } from "@/components/layout/locale-switcher";
 
 export async function Footer() {
@@ -16,6 +17,7 @@ export async function Footer() {
   const contactEmail = siteConfig.contact.email;
   const contactPhone = siteConfig.contact.phone;
   const contactWhatsapp = siteConfig.contact.whatsapp;
+  const facebookUrl = siteConfig.social.facebook;
 
   return (
     <footer className="mt-auto border-t border-border bg-muted/50">
@@ -51,6 +53,17 @@ export async function Footer() {
                 className="block text-sm text-muted-foreground transition-colors hover:text-foreground"
               >
                 {tFooter("whatsapp")}
+              </a>
+            ) : null}
+            {facebookUrl ? (
+              <a
+                href={facebookUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+              >
+                <FacebookIcon className="size-4 text-[#1877F2]" aria-hidden />
+                {tFooter("facebook")}
               </a>
             ) : null}
             <LocaleSwitcher compact />

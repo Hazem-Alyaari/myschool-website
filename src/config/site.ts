@@ -112,7 +112,7 @@ export const siteConfig = {
   },
 
   social: {
-    facebook: "", // TODO
+    facebook: "https://www.facebook.com/profile.php?id=61594983299744",
     x: "", // TODO
     linkedin: "", // TODO
     instagram: "", // TODO

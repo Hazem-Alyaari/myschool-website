@@ -4,6 +4,7 @@ import { Container } from "@/components/ui/container";
 import { DemoLink, hasDemoUrl } from "@/components/ui/demo-link";
 import { Reveal } from "@/components/ui/reveal";
 import { ContactForm } from "@/components/contact/contact-form";
+import { FacebookIcon } from "@/components/ui/facebook-icon";
 import { siteConfig } from "@/config/site";
 
 export async function ContactPageContent() {
@@ -12,6 +13,7 @@ export async function ContactPageContent() {
   const contactEmail = siteConfig.contact.email.trim();
   const contactPhone = siteConfig.contact.phone.trim();
   const contactWhatsapp = siteConfig.contact.whatsapp.trim();
+  const facebookUrl = siteConfig.social.facebook.trim();
 
   return (
     <>
@@ -71,7 +73,7 @@ export async function ContactPageContent() {
       <section aria-labelledby="contact-form-heading" className="section-pad">
         <Container narrow>
           <Reveal>
-            {(contactEmail || contactPhone || contactWhatsapp) && (
+            {(contactEmail || contactPhone || contactWhatsapp || facebookUrl) && (
               <ul className="mb-8 flex flex-wrap items-center justify-center gap-3">
                 {contactEmail ? (
                   <li>
@@ -107,6 +109,19 @@ export async function ContactPageContent() {
                     >
                       <MessageCircle className="size-4 text-[#25D366]" aria-hidden />
                       <span>{t("channels.whatsapp")}</span>
+                    </a>
+                  </li>
+                ) : null}
+                {facebookUrl ? (
+                  <li>
+                    <a
+                      href={facebookUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-[var(--radius-lg)] border border-[#1877F2]/40 bg-[color-mix(in_srgb,#1877F2_10%,var(--background))] px-4 py-2.5 text-sm font-medium text-foreground shadow-[var(--shadow-sm)] transition-colors hover:border-[#1877F2]/70 hover:bg-[color-mix(in_srgb,#1877F2_16%,var(--background))]"
+                    >
+                      <FacebookIcon className="size-4 text-[#1877F2]" aria-hidden />
+                      <span>{t("channels.facebook")}</span>
                     </a>
                   </li>
                 ) : null}
