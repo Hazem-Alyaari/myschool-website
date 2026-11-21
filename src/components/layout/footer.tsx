@@ -5,6 +5,7 @@ import { getBrandName, siteConfig } from "@/config/site";
 import { Container } from "@/components/ui/container";
 import { SiteWordmark } from "@/components/ui/site-wordmark";
 import { FacebookIcon } from "@/components/ui/facebook-icon";
+import { YoutubeIcon } from "@/components/ui/youtube-icon";
 import { LocaleSwitcher } from "@/components/layout/locale-switcher";
 
 export async function Footer() {
@@ -18,6 +19,7 @@ export async function Footer() {
   const contactPhone = siteConfig.contact.phone;
   const contactWhatsapp = siteConfig.contact.whatsapp;
   const facebookUrl = siteConfig.social.facebook;
+  const youtubeUrl = siteConfig.social.youtube;
 
   return (
     <footer className="mt-auto border-t border-border bg-muted/50">
@@ -64,6 +66,17 @@ export async function Footer() {
               >
                 <FacebookIcon className="size-4 text-[#1877F2]" aria-hidden />
                 {tFooter("facebook")}
+              </a>
+            ) : null}
+            {youtubeUrl ? (
+              <a
+                href={youtubeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+              >
+                <YoutubeIcon className="size-4 text-[#FF0000]" aria-hidden />
+                {tFooter("youtube")}
               </a>
             ) : null}
             <LocaleSwitcher compact />

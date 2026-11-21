@@ -116,7 +116,7 @@ export const siteConfig = {
     x: "", // TODO
     linkedin: "", // TODO
     instagram: "", // TODO
-    youtube: "", // TODO
+    youtube: "https://www.youtube.com/@HazemALyaari",
     github: "", // TODO
   },
 

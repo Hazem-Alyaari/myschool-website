@@ -5,6 +5,7 @@ import { DemoLink, hasDemoUrl } from "@/components/ui/demo-link";
 import { Reveal } from "@/components/ui/reveal";
 import { ContactForm } from "@/components/contact/contact-form";
 import { FacebookIcon } from "@/components/ui/facebook-icon";
+import { YoutubeIcon } from "@/components/ui/youtube-icon";
 import { siteConfig } from "@/config/site";
 
 export async function ContactPageContent() {
@@ -14,6 +15,7 @@ export async function ContactPageContent() {
   const contactPhone = siteConfig.contact.phone.trim();
   const contactWhatsapp = siteConfig.contact.whatsapp.trim();
   const facebookUrl = siteConfig.social.facebook.trim();
+  const youtubeUrl = siteConfig.social.youtube.trim();
 
   return (
     <>
@@ -73,7 +75,11 @@ export async function ContactPageContent() {
       <section aria-labelledby="contact-form-heading" className="section-pad">
         <Container narrow>
           <Reveal>
-            {(contactEmail || contactPhone || contactWhatsapp || facebookUrl) && (
+            {(contactEmail ||
+              contactPhone ||
+              contactWhatsapp ||
+              facebookUrl ||
+              youtubeUrl) && (
               <ul className="mb-8 flex flex-wrap items-center justify-center gap-3">
                 {contactEmail ? (
                   <li>
@@ -122,6 +128,19 @@ export async function ContactPageContent() {
                     >
                       <FacebookIcon className="size-4 text-[#1877F2]" aria-hidden />
                       <span>{t("channels.facebook")}</span>
+                    </a>
+                  </li>
+                ) : null}
+                {youtubeUrl ? (
+                  <li>
+                    <a
+                      href={youtubeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-[var(--radius-lg)] border border-[#FF0000]/40 bg-[color-mix(in_srgb,#FF0000_10%,var(--background))] px-4 py-2.5 text-sm font-medium text-foreground shadow-[var(--shadow-sm)] transition-colors hover:border-[#FF0000]/70 hover:bg-[color-mix(in_srgb,#FF0000_16%,var(--background))]"
+                    >
+                      <YoutubeIcon className="size-4 text-[#FF0000]" aria-hidden />
+                      <span>{t("channels.youtube")}</span>
                     </a>
                   </li>
                 ) : null}

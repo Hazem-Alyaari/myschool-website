@@ -212,7 +212,8 @@
     "rights": "All rights reserved.",
     "navLabel": "Footer",
     "whatsapp": "Chat on WhatsApp",
-    "facebook": "Follow us on Facebook"
+    "facebook": "Follow us on Facebook",
+    "youtube": "Our YouTube channel"
   },
   "Pages": {
     "home": "Home",
@@ -889,7 +890,8 @@
     },
     "channels": {
       "whatsapp": "Chat on WhatsApp",
-      "facebook": "Our Facebook page"
+      "facebook": "Our Facebook page",
+      "youtube": "Our YouTube channel"
     },
     "form": {
       "eyebrow": "Direct message",
